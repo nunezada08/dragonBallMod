@@ -415,7 +415,6 @@
                 }
             },
 
-            // vanilla
             "minecraft:add_raid_omen": {
                 "minecraft:spell_effects": {
                     "add_effects": [
@@ -805,8 +804,6 @@
                     ]
                 }
             },
-
-            // vanilla
             "minecraft:gain_raid_omen": {
                 "add": {
                     "component_groups": [

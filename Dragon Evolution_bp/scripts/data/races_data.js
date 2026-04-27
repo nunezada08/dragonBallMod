@@ -202,7 +202,7 @@ const races_data = [
         multipliers: {
           dexterity: 2.2,
           ki_consume: 4,
-          size: 1.1,
+          size: 1.2,
           strength: 2.2,
           willpower: 2.2
         },
