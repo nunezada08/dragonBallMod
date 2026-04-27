@@ -1,0 +1,572 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.attack_poses.kamehameha": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"leftLeg": {
+					"rotation": [-3.13388, 17.22575, -10.47479],
+					"position": [-1, 0, -3]
+				},
+				"rightLeg": {
+					"rotation": [18.33118, 82.09657, 18.49506],
+					"position": [-1, 0, 3]
+				},
+				"body": {
+					"rotation": [23.30878, 63.39144, 0.72422],
+					"position": [-2, -4, 0]
+				},
+				"head": {
+					"rotation": [-13.28982, -46.03805, 18.16723]
+				},
+				"leftArm": {
+					"rotation": [-53.57134, 18.53299, 38.77445],
+					"position": [0, 0, -2]
+				},
+				"rightArm": {
+					"rotation": [-99.96746, 3.20843, 32.35653],
+					"position": [0, 0, 2]
+				}
+			}
+		},
+		"animation.attack_poses.kamehameha_launch": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"leftLeg": {
+					"rotation": [-3.00123, -0.1189, -7.03624],
+					"position": [0, 0, -3]
+				},
+				"rightLeg": {
+					"rotation": [59.87154, 21.03824, 26.52473],
+					"position": [-1, -3, -2]
+				},
+				"body": {
+					"rotation": [22.46871, 11.37494, -0.14776],
+					"position": [0, -4, -3]
+				},
+				"head": {
+					"rotation": [-8.19161, -14.89561, 5.74628]
+				},
+				"leftArm": {
+					"rotation": [-85.00206, 25.44008, 57.88461],
+					"position": [-1, 0, -2]
+				},
+				"rightArm": {
+					"rotation": [-117.51958, -6.6406, 34.09054],
+					"position": [2, 1, -2]
+				}
+			}
+		},
+		"animation.attack_poses.makankosappo": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"leftLeg": {
+					"rotation": [36.76517, -72.81937, -32.19427],
+					"position": [1, 0, 4]
+				},
+				"rightLeg": {
+					"rotation": [-1.22565, -14.95376, 7.64413],
+					"position": [-1, 0, -3]
+				},
+				"body": {
+					"rotation": [37.43441, -46.85537, -19.20017],
+					"position": [0, -4, -2]
+				},
+				"head": {
+					"rotation": [-5.69132, 31.94715, 6.31274]
+				},
+				"leftArm": {
+					"rotation": [1.85167, -28.37189, -54.80581],
+					"position": [0, 0, 1]
+				},
+				"rightArm": {
+					"rotation": [-188.14615, -47.68386, 38.23727],
+					"position": [-3, 0, -3]
+				}
+			}
+		},
+		"animation.attack_poses.makankosappo_launch": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"leftLeg": {
+					"rotation": [54.23351, -67.53723, -48.07692],
+					"position": [1, 0, 2]
+				},
+				"rightLeg": {
+					"rotation": [-1.22565, -14.95376, 7.64413],
+					"position": [0, 0, -4]
+				},
+				"body": {
+					"rotation": [37.43441, -46.85537, -19.20017],
+					"position": [1, -4, -3]
+				},
+				"head": {
+					"rotation": [-5.69132, 31.94715, 6.31274]
+				},
+				"leftArm": {
+					"rotation": [-23.26667, -37.94731, -38.99737],
+					"position": [0, 0, 3]
+				},
+				"rightArm": {
+					"rotation": [-39.08123, 20.35261, 108.20768],
+					"position": [-1, 2, -2]
+				}
+			}
+		},
+		"animation.attack_poses.galick_gun": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation - 52.5", 0]
+				},
+				"leftLeg": {
+					"rotation": [45, -80, 0],
+					"position": [4, -1, -1]
+				},
+				"rightLeg": {
+					"rotation": [-32.5, -57.5, 0],
+					"position": [5, 4, -6]
+				},
+				"body": {
+					"rotation": [-22.30998, -38.56914, -22.30998],
+					"position": [-3, -5, 0]
+				},
+				"head": {
+					"rotation": [8.61459, 63.10672, -10.42995]
+				},
+				"leftArm": {
+					"rotation": [-100.47479, 17.22575, -3.13388],
+					"position": [2, 0, 2]
+				},
+				"rightArm": {
+					"rotation": [-132.5, 12.5, 90],
+					"position": [-1, -2, -2]
+				}
+			}
+		},
+		"animation.attack_poses.galick_gun_launch": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"leftLeg": {
+					"rotation": [5.86624, -4.46674, -5.44663],
+					"position": [1, 0, -2]
+				},
+				"rightLeg": {
+					"rotation": [33.55484, 4.20709, 7.94025],
+					"position": [-1, -1, 0]
+				},
+				"body": {
+					"rotation": [27.5, 0, 0],
+					"position": [0, -4, -3]
+				},
+				"head": {
+					"rotation": [-20, 0, 0]
+				},
+				"leftArm": {
+					"rotation": [-110.00498, -14.64307, -72.22855],
+					"position": [0, 0, -2]
+				},
+				"rightArm": {
+					"rotation": [-108.37157, 11.36649, 64.23686],
+					"position": [0, 0, -2]
+				}
+			}
+		},
+		"animation.attack_poses.ki_blast_right": {
+			"loop": true,
+			"bones": {
+				"leftLeg": {
+					"rotation": [13.88714, -27.24513, -8.44236],
+					"position": [0, 0, 1]
+				},
+				"rightLeg": {
+					"position": [0, 0, -2]
+				},
+				"body": {
+					"rotation": [0, -25, 0]
+				},
+				"head": {
+					"rotation": [0, 17.5, 0]
+				},
+				"leftArm": {
+					"rotation": [-7.5, 0, -10]
+				},
+				"rightArm": {
+					"rotation": [-77.12671, 7.13514, 54.85737]
+				}
+			}
+		},
+		"animation.player.first_person.genki_dama": {
+			"loop": true,
+			"animation_length": 600,
+			"bones": {
+				"topKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"position": {
+						"0.0": [0, 0, 200],
+						"2.0": [0, 50, 250]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"2.0": [20, 20, 20]
+					}
+				},
+				"leftArm": {
+					"rotation": [-20, 2.5, 12.5]
+				},
+				"leftItem": {
+					"scale": 0
+				},
+				"rightArm": {
+					"rotation": [-20, -2.5, -12.5]
+				}
+			}
+		},
+		"animation.attack_poses.ki_blast": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["q.target_x_rotation - 90", "q.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.player.first_person.makankosappo": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [-20, -2.5, -12.5],
+					"position": [2.5, 6, 0]
+				}
+			}
+		},
+		"animation.player.first_person.ki_blast": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": [-20, 2.5, 12.5]
+				},
+				"rightArm": {
+					"rotation": [-20, -2.5, -12.5]
+				}
+			}
+		},
+		"animation.attack_poses.kienzan": {
+			"loop": true,
+			"animation_length": 0.403,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"rightArm": {
+					"rotation": ["q.target_x_rotation + 180", 0, -5]
+				},
+				"rightKiDisc": {
+					"rotation": ["math.cos(q.anim_time * 100) * 2", "q.life_time * 1000", 0],
+					"position": [0, -4, 0],
+					"scale": [2, 1, 2]
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "kienzan_loop"
+				}
+			}
+		},
+		"animation.attack_poses.genki_dama": {
+			"animation_length": 600,
+			"override_previous_animation": false,
+			"bones": {
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"topKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"position": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, 100, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"2.0": [20, 20, 20]
+					}
+				},
+				"leftItem": {
+					"scale": 0
+				},
+				"leftArm": {
+					"rotation": [-180, 20, 5],
+					"position": [0, 2, 0]
+				},
+				"rightArm": {
+					"rotation": [-180, -20, -5],
+					"position": [0, 2, 0]
+				}
+			}
+		},
+		"animation.player.first_person.final_flash": {
+			"animation_length": 600,
+			"override_previous_animation": true,
+			"bones": {
+				"rightKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"leftKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.player.first_person.final_flash_launch": {
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"leftArm": {
+					"rotation": [-20, 2.5, 12.5]
+				},
+				"rightArm": {
+					"rotation": [-20, -2.5, -12.5]
+				}
+			}
+		},
+		"animation.attack_poses.final_flash_launch": {
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"waist": {
+					"rotation": [10, 0, 0]
+				},
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0],
+					"position": [0, -1, 0]
+				},
+				"leftArm": {
+					"rotation": ["q.target_x_rotation - 100", 25, 0],
+					"position": [0, 0, -1]
+				},
+				"rightArm": {
+					"rotation": ["q.target_x_rotation - 100", -25, 0],
+					"position": [0, 0, -1]
+				},
+				"leftLeg": {
+					"rotation": [-29.78729, -3.74196, -6.50446],
+					"position": [1, 1, -1]
+				},
+				"rightLeg": {
+					"rotation": [-29.78729, 3.74196, 6.50446],
+					"position": [-1, 1, -1]
+				}
+			}
+		},
+		"animation.attack_poses.final_flash": {
+			"animation_length": 600,
+			"override_previous_animation": true,
+			"bones": {
+				"rightKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"leftKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"waist": {
+					"rotation": [0, 0, 0]
+				},
+				"leftArm": {
+					"rotation": [85.63194, -63.41527, -171.77826],
+					"position": [1, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [93.2807, 55.96411, 179.42283],
+					"position": [-1, 0, 0]
+				},
+				"leftLeg": {
+					"rotation": [0, 0, -12.5],
+					"position": [1, 0, 0]
+				},
+				"rightLeg": {
+					"rotation": [0, 0, 10],
+					"position": [-1, 0, 0]
+				},
+				"body": {
+					"rotation": [17.5, 0, 0],
+					"position": [0, -1, -2]
+				}
+			}
+		},
+		"animation.player.first_person.masenko": {
+			"animation_length": 600,
+			"override_previous_animation": true,
+			"bones": {
+				"rightKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"rightArm": {
+					"rotation": [-20, -2.5, -12.5]
+				}
+			}
+		},
+		"animation.attack_poses.setup": {
+			"loop": true,
+			"bones": {
+				"leftKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0]
+				},
+				"rightKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0]
+				}
+			}
+		},
+		"animation.attack_poses.masenko_launch": {
+			"animation_length": 0.8,
+			"override_previous_animation": true,
+			"bones": {
+				"waist": {
+					"rotation": [10, 0, 0]
+				},
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0],
+					"position": [0, -1, 0]
+				},
+				"leftArm": {
+					"rotation": ["q.target_x_rotation - 100", 25, 0],
+					"position": [0, 0, -1]
+				},
+				"rightArm": {
+					"rotation": ["q.target_x_rotation - 100", -25, 0],
+					"position": [0, 0, -1]
+				},
+				"leftLeg": {
+					"rotation": [-29.78729, -3.74196, -6.50446],
+					"position": [1, 1, -1]
+				},
+				"rightLeg": {
+					"rotation": [-29.78729, 3.74196, 6.50446],
+					"position": [-1, 1, -1]
+				}
+			}
+		},
+		"animation.attack_poses.masenko": {
+			"loop": true,
+			"animation_length": 600,
+			"override_previous_animation": true,
+			"bones": {
+				"rightKiBall": {
+					"rotation": ["q.anim_time * 1000", "q.anim_time * 1000", 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"root": {
+					"rotation": [0, "q.target_y_rotation", 0]
+				},
+				"waist": {
+					"rotation": [0, 0, 0]
+				},
+				"leftArm": {
+					"rotation": [-164.17857, -87.81389, -58.9907],
+					"position": [2, 3, -7]
+				},
+				"rightArm": {
+					"rotation": [73.7564, 87.90611, 295.47577],
+					"position": [-2, 3, -7]
+				},
+				"leftLeg": {
+					"rotation": [0, 0, -2.5],
+					"position": [1, 0, 0]
+				},
+				"rightLeg": {
+					"rotation": [0, 0, 0],
+					"position": [-1, 0, 0]
+				},
+				"body": {
+					"rotation": [-7.5, 0, 0],
+					"position": [0, -1, 1]
+				}
+			}
+		},
+		"animation.player.first_person.masenko_launch": {
+			"animation_length": 0.8,
+			"override_previous_animation": true,
+			"bones": {
+				"leftArm": {
+					"rotation": [-20, 2.5, 12.5]
+				},
+				"rightArm": {
+					"rotation": [-20, -2.5, -12.5]
+				}
+			}
+		},
+		"animation.attack_poses.ki_blast_left": {
+			"loop": true,
+			"bones": {
+				"leftLeg": {
+					"rotation": [13.88714, -27.24513, -8.44236],
+					"position": [0, 0, 1]
+				},
+				"rightLeg": {
+					"position": [0, 0, -2]
+				},
+				"body": {
+					"rotation": [0, 25, 0]
+				},
+				"head": {
+					"rotation": [0, -17.5, 0]
+				},
+				"leftArm": {
+					"rotation": [-77.12671, -7.13514, -54.85737]
+				},
+				"rightArm": {
+					"rotation": [-7.5, 0, 10]
+				}
+			}
+		}
+	}
+}

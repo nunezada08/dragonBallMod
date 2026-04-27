@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.genki_dama": {
+			"states": {
+				"default": {
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"genki_dama": "v.charging_attack == 1"
+						}
+					]
+				},
+				"genki_dama": {
+					"animations": [
+						"ki_attack_setup",
+						{
+							"first_person_genki_dama": "v.is_first_person"
+						},
+						{
+							"genki_dama": "!v.is_first_person"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!v.charging_attack"
+						}
+					]
+				}
+			}
+		}
+	}
+}

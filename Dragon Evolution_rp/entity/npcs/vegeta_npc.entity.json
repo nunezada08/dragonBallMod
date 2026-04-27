@@ -1,0 +1,96 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "dbe:vegeta_npc",
+            "materials": {
+                "default": "entity_alphatest",
+                "alphatest_change_color": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/entity/races/saiyan/saiyan_male_base_2",
+                "armor": "textures/models/armors/battle_armor/vegeta_cell_battle_armor",
+                "eyes": "textures/entity/races/saiyan/eyes/male_1_grayscale",
+                "eyes_ssj4": "textures/entity/races/saiyan/eyes/male_ssj4_1_grayscale",
+                "hair": "textures/entity/races/saiyan/hairs/vegeta_hair_grayscale"
+            },
+            "geometry": {
+                "default": "geometry.earthling",
+                "armor": "geometry.battle_armor",
+                "eyes": "geometry.eyes",
+                // hairs
+                "hair": "geometry.vegeta_hair",
+                "ssj_hair": "geometry.vegeta_ssj_hair",
+                "ssj2_hair": "geometry.vegeta_ssj2_hair",
+                "ssj3_hair": "geometry.vegeta_ssj3_hair",
+                "ssj4_hair": "geometry.vegeta_ssj4_hair",
+                "beast_hair": "geometry.gohan_beast_hair"
+            },
+            "scripts": {
+                "pre_animation": [
+                    // colors
+                    "v.color0.value = q.property('dbe:color_0');",
+                    "v.color1.value = q.property('dbe:color_1');",
+                    "v.color2.value = q.property('dbe:color_2');",
+                    "v.color3.value = q.property('dbe:color_3');",
+                    "v.color0.r = (math.floor(v.color0.value / 1000000) - 100) / 255;",
+                    "v.color0.g = (math.floor(math.mod(v.color0.value, 1000000) / 1000) - 100) / 255;",
+                    "v.color0.b = (math.mod(v.color0.value, 1000) - 100) / 255;",
+                    "v.color1.r = (math.floor(v.color1.value / 1000000) - 100) / 255;",
+                    "v.color1.g = (math.floor(math.mod(v.color1.value, 1000000) / 1000) - 100) / 255;",
+                    "v.color1.b = (math.mod(v.color1.value, 1000) - 100) / 255;",
+                    "v.color2.r = (math.floor(v.color2.value / 1000000) - 100) / 255;",
+                    "v.color2.g = (math.floor(math.mod(v.color2.value, 1000000) / 1000) - 100) / 255;",
+                    "v.color2.b = (math.mod(v.color2.value, 1000) - 100) / 255;",
+                    "v.color3.r = (math.floor(v.color3.value / 1000000) - 100) / 255;",
+                    "v.color3.g = (math.floor(math.mod(v.color3.value, 1000000) / 1000) - 100) / 255;",
+                    "v.color3.b = (math.mod(v.color3.value, 1000) - 100) / 255;",
+                    "v.aura_color.r = v.color0.r;",
+                    "v.aura_color.g = v.color0.g;",
+                    "v.aura_color.b = v.color0.b;",
+                    "v.ki_attack_color0.value = q.property('dbe:ki_attack_color_0');",
+                    "v.ki_attack_color1.value = q.property('dbe:ki_attack_color_1');",
+                    "v.ki_attack_color0.r = (math.floor(v.ki_attack_color0.value / 1000000) - 100) / 255;",
+                    "v.ki_attack_color0.g = (math.floor(math.mod(v.ki_attack_color0.value, 1000000) / 1000) - 100) / 255;",
+                    "v.ki_attack_color0.b = (math.mod(v.ki_attack_color0.value, 1000) - 100) / 255;",
+                    "v.ki_attack_color1.r = (math.floor(v.ki_attack_color1.value / 1000000) - 100) / 255;",
+                    "v.ki_attack_color1.g = (math.floor(math.mod(v.ki_attack_color1.value, 1000000) / 1000) - 100) / 255;",
+                    "v.ki_attack_color1.b = (math.mod(v.ki_attack_color1.value, 1000) - 100) / 255;",
+                    // common      
+                    "v.aura_enabled = q.property('dbe:aura_boost');",
+                    "v.charging_attack = q.property('dbe:charging_attack');",
+                    "v.is_falling = q.vertical_speed < -0.2;",
+                    "v.is_flying = q.property('dbe:is_flying') && !v.charging_attack;",
+                    "v.is_idle = !q.ground_speed && !v.charging_attack;",
+                    "v.is_knocked_out = q.property('dbe:is_knocked_out');",
+                    "v.is_sprinting = q.property('dbe:aura_boost') && !v.charging_attack;",
+                    "v.is_walking = q.ground_speed && !v.charging_attack;",
+                    "v.transformation = q.property('dbe:transformation');",
+                    // private
+                    "v.is_oozaru = q.any(v.transformation, 1, 8);",
+                    "v.is_ssj4 = v.transformation == 9;"
+                ],
+                "animate": [
+                    "root",
+                    "hair_move"
+                ]
+            },
+            "animations": {
+                "root": "controller.animation.npc.root",
+                "blink": "animation.humanoid.blink",
+                "bob": "animation.player.bob",
+                "look_at_target": "animation.humanoid.look_at_target.default",
+                // private
+                "hair_move": "animation.player.hair.move"
+            },
+            "render_controllers": [
+                "controller.render.saiyan",
+                "controller.render.saiyan_eyebrows",
+                "controller.render.saiyan_eyes_iris",
+                "controller.render.saiyan_eyes_sclera",
+                "controller.render.saiyan_hair",
+                "controller.render.entity_armor"
+            ]
+        }
+    }
+}

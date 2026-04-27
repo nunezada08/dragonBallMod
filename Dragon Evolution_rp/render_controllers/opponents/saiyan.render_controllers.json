@@ -1,0 +1,110 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.saiyan": {
+            "geometry": "Geometry.default",
+            "materials": [ { "*": "Material.default" } ],
+            "textures": [ "Texture.default" ],
+            "part_visibility": [
+                { "*": true },
+                { "breasts": false }
+            ]
+        },
+        "controller.render.saiyan_eyebrows": {
+            "geometry": "Geometry.eyes",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "v.is_ssj4 ? Texture.eyes_ssj4 : Texture.eyes" ],
+            "part_visibility": [
+                { "*": false },
+                { "eyebrows": "!q.any(v.transformation, 5, 16)" }
+            ],
+            "overlay_color": {
+                "r": "v.color1.r",
+                "g": "v.color1.g",
+                "b": "v.color1.b",
+                "a": 1
+            }
+        },
+        "controller.render.saiyan_eyes_iris": {
+            "geometry": "Geometry.eyes",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "v.is_ssj4 ? Texture.eyes_ssj4 : Texture.eyes" ],
+            "part_visibility": [
+                { "*": false },
+                { "leftIris": true },
+                { "rightIris": true }
+            ],
+            "overlay_color": {
+                "r": "v.color2.r",
+                "g": "v.color2.g",
+                "b": "v.color2.b",
+                "a": 1
+            }
+        },
+        "controller.render.saiyan_eyes_sclera": {
+            "geometry": "Geometry.eyes",
+            "materials": [ { "*": "Material.default" } ],
+            "textures": [ "v.is_ssj4 ? Texture.eyes_ssj4 : Texture.eyes" ],
+            "part_visibility": [
+                { "*": false },
+                { "leftEye": true },
+                { "rightEye": true }
+            ]
+        },
+        "controller.render.saiyan_hair": {
+            "arrays": {
+                "geometries": {
+                    "Array.geometries": [
+                        "Geometry.hair",
+                        "Geometry.hair",
+                        "Geometry.ssj_hair",
+                        "Geometry.ssj_hair",
+                        "Geometry.ssj2_hair",
+                        "Geometry.ssj3_hair",
+                        "Geometry.ssj_hair",
+                        "Geometry.ssj2_hair",
+                        "Geometry.hair",
+                        "Geometry.ssj4_hair",
+                        "Geometry.hair",
+                        "Geometry.ssj_hair",
+                        "Geometry.ssj_hair",
+                        "Geometry.ssj2_hair",
+                        "Geometry.ssj2_hair",
+                        "Geometry.beast_hair",
+                        "Geometry.ssj2_hair"
+                    ]
+                }
+            },
+            "geometry": "Array.geometries[v.transformation]",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "Texture.hair" ],
+            "overlay_color": {
+                "r": "v.color1.r",
+                "g": "v.color1.g",
+                "b": "v.color1.b",
+                "a": 1
+            }
+        },
+        "controller.render.saiyan_oozaru": {
+            "geometry": "Geometry.oozaru",
+            "materials": [ { "*": "Material.default" } ],
+            "textures": [ "v.transformation == 8 ? Texture.golden_oozaru : Texture.oozaru" ]
+        },
+        "controller.render.saiyan_oozaru_armor": {
+            "geometry": "Geometry.oozaru_armor",
+            "materials": [ { "*": "Material.default" } ],
+            "textures": [ "Texture.oozaru_armor" ]
+        },
+        "controller.render.saiyan_tail": {
+            "geometry": "Geometry.tail",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "Texture.tail" ],
+            "overlay_color": {
+                "r": "v.color3.r",
+                "g": "v.color3.g",
+                "b": "v.color3.b",
+                "a": 1
+            }
+        }
+    }
+}

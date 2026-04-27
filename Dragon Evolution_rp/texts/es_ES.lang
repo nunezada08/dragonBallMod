@@ -1,0 +1,1139 @@
+## manifest
+pack.credits=DBE v1.0.6 por About04
+pack.description=Despierta tu poder interior, supera desafíos increíbles y enfréntate a temibles enemigos del universo de Dragon Ball.
+pack.name=Dragon Evolution v1.0.6
+pack.news=¡Año nuevo, vida nueva! Estamos ajustando muchas cosas. Esta versión es inestable y no recomendamos jugar en serio. Hemos modificado varios sistemas de progresión y estamos aceptando feedback en nuestro Discord!
+
+
+
+
+
+## alinhamento
+alignment.evil=§uMalvado
+alignment.neutral=§8Neutral
+alignment.good=§qBueno
+
+
+
+
+
+## atributos
+attribute.strength=Fuerza
+attribute.strength.abbreviation=STR
+attribute.strength.upgrade.1=§a¡El poder físico despierta dentro de ti! (+%s Fuerza)
+attribute.strength.upgrade.2=§a¡Tus músculos desbordan poder! (+%s Fuerza)
+attribute.strength.upgrade.3=§a¡Te sientes físicamente más fuerte! (+%s Fuerza)
+attribute.constitution=Constitución
+attribute.constitution.abbreviation=CON
+attribute.constitution.upgrade.1=§a¡Tu cuerpo se vuelve más resistente! (+%s Constitución)
+attribute.constitution.upgrade.2=§a¡Tu vitalidad aumenta! (+%s Constitución)
+attribute.constitution.upgrade.3=§a¡Tu resistencia física mejora enormemente! (+%s Constitución)
+attribute.dexterity=Destreza
+attribute.dexterity.abbreviation=DEX
+attribute.dexterity.upgrade.1=§a¡Tus movimientos se vuelven más rápidos! (+%s Destreza)
+attribute.dexterity.upgrade.2=§a¡Tus reflejos se aceleran! (+%s Destreza)
+attribute.dexterity.upgrade.3=§a¡Tu velocidad alcanza un nuevo nivel! (+%s Destreza)
+attribute.spirit=Ki Máximo
+attribute.spirit.abbreviation=MKI
+attribute.spirit.upgrade.1=§a¡Tu energía de ki aumenta! (+%s Ki Máximo)
+attribute.spirit.upgrade.2=§a¡Tu ki interno se expande! (+%s Ki Máximo)
+attribute.spirit.upgrade.3=§a¡Una enorme cantidad de ki fluye dentro de ti! (+%s Ki Máximo)
+attribute.willpower=Poder de Ki
+attribute.willpower.abbreviation=KIP
+attribute.willpower.upgrade.1=§a¡Tus ataques de ki se vuelven más fuertes! (+%s Poder de Ki)
+attribute.willpower.upgrade.2=§a¡Concentras tu ki con mayor intensidad! (+%s Poder de Ki)
+attribute.willpower.upgrade.3=§a¡Tu poder de ki alcanza un nuevo nivel! (+%s Poder de Ki)
+
+
+
+
+
+## biomas
+biome.minecraft:beach.name=Playa
+biome.dbe:dirtstone.name=Dirtstone
+biome.dbe:namek.name=Namek
+
+
+
+
+
+## blocos
+tile.dbe:ajisa_door.name=Puerta de Ajisa
+tile.dbe:ajisa_leaves.name=Hojas de Ajisa
+tile.dbe:ajisa_log.name=Tronco de Ajisa
+tile.dbe:ajisa_planks.name=Tablas de Madera de Ajisa
+tile.dbe:ajisa_sapling.name=Brote de Ajisa
+tile.dbe:blue_tile.name=Azulejo Azul
+tile.dbe:deepslate_evolitium_ore.name=Mineral de Evolitium de Pizarra Profunda
+tile.dbe:dirtstone_evolitium_ore.name=Mineral de Evolitium de Dirtstone 
+tile.dbe:dirtstone.name=Dirtstone
+tile.dbe:dirtstone_grass.name=Bloque de Césped de Dirtstone
+tile.dbe:dirtstone_rubble.name=Escombros de Dirtstone
+tile.dbe:dirtstone_tall_grass.name=Hierba Alta de Dirtstone
+tile.dbe:dragon_ball.name=Esfera del Dragón
+tile.dbe:dry_soil.name=Suelo Seco
+tile.dbe:evolitium_cluster.name=Acumulación de Evolitium
+tile.dbe:evolitium_ore.name=Mineral de Evolitium
+tile.dbe:gravity_machine.name=Máquina de Gravedad
+tile.dbe:katchin_block.name=Bloque de Katchin
+tile.dbe:mafuba_pot.name=Vasija del Mafuba
+tile.dbe:medical_moss_crop.name=Musgo Medicinal
+tile.dbe:namek_dragon_ball.name=Esfera del Dragón de Namek
+tile.dbe:namek_grass.name=Bloque de Césped de Namek
+tile.dbe:namek_stone.name=Piedra de Namek
+tile.dbe:namek_stone_evolitium_ore.name=Mineral de Evolitium de Piedra de Namek
+tile.dbe:namek_tall_grass.name=Hierba Alta de Namek
+tile.dbe:namek_mushroom.name=Hongo de Namek
+tile.dbe:packed_sand.name=Arena Compactada
+tile.dbe:pirate_robot_head.name=Cabeza del Robot Pirata
+tile.dbe:purple_tile.name=Azulejo Morado
+tile.dbe:red_tile.name=Azulejo Rojo
+tile.dbe:senzu_beans.name=Semilla del Ermitaño
+tile.dbe:white_tile.name=Azulejo Blanco
+tile.dbe:yellow_cloud_block.name=Bloque de Nube Amarilla
+tile.dbe:yellow_tile.name=Azulejo Amarillo
+
+
+
+
+
+## customização
+customization.beard=Barba
+customization.eyes=Ojos
+customization.eye_color=Color de Ojos
+customization.gender=Género
+customization.hair_color=Color de Cabello
+customization.hair=Cabello
+customization.skin=Color de Piel
+customization.tail_color=Color de la Cola
+
+
+
+
+
+## diversos
+dbe:itemGroup.name.items=Dragon Evolution
+master.none=Sin maestro
+tailMode.curled=Amarrada
+tailMode.loose=Suelta
+trainingPoints.abbreviation=TP
+zeni=Zeni
+
+
+
+
+
+## doar
+donate.title=Apoya DBE
+donate.text=Al apoyar nuestro add-on con un monto mínimo equivalente a R$12,90 y comprobar tu donación, recibirás un código PATRON con duración de 1 mes para canjear en cualquier mundo con DBE, tantas veces como quieras (limitado a 1 canje por mundo). Envía el comprobante en nuestro servidor y generaremos tu código. Para canjearlo, usa: /dbe:redeem "CÓDIGO". Para jugadores fuera de Brasil, las donaciones son solo vía PayPal; para brasileños, también se acepta PIX. Para obtener la clave PIX o más información, visita nuestro Discord. Al canjear, recibirás los siguientes objetos:
+
+
+
+
+
+## desejos
+wish.change_race=Deseo ser %s
+wish.grow_tail=Deseo que me crezca la cola
+
+
+
+
+
+## entidades
+entity.dbe:akira_toriyama.name=Akira Toriyama
+entity.dbe:android_17.name=Androide 17
+entity.dbe:android_18.name=Androide 18
+entity.dbe:android_19.name=Androide 19
+entity.dbe:android_20.name=Androide 20
+entity.dbe:battle_jacket.name=Armadura de Combate
+entity.dbe:beerus.name=Beerus
+entity.dbe:beerus_enemy.name=Beerus
+entity.dbe:botamo.name=Botamo
+entity.dbe:bulma.name=Bulma
+entity.dbe:burter.name=Burter
+entity.dbe:cabba.name=Cabba
+entity.dbe:cell.name=Cell
+entity.dbe:cell_junior.name=Cell Jr.
+entity.dbe:cell_npc.name=Cell
+entity.dbe:cui.name=Cui
+entity.dbe:chi_chi.name=Milk
+entity.dbe:dabura.name=Dabura
+entity.dbe:deer.name=Ciervo
+entity.dbe:dinosaur.name=Dinosaurio
+entity.dbe:dodoria.name=Dodoria
+entity.dbe:enma_daioh.name=Rey Enma
+entity.dbe:fat_buu.name=Majin Boo (Gordo)
+entity.dbe:flying_nimbus.name=Nube Voladora
+entity.dbe:frieza.name=Freezer
+entity.dbe:frieza_pod.name=Nave de Freezer
+entity.dbe:frieza_soldier.name=Soldado de Freezer
+entity.dbe:frost.name=Frost
+entity.dbe:future_trunks.name=Trunks del Futuro
+entity.dbe:general_black.name=General Black
+entity.dbe:giant_fish.name=Pez Gigante
+entity.dbe:ginyu.name=Ginyu
+entity.dbe:goku.name=Goku
+entity.dbe:goku_enemy.name=Goku
+entity.dbe:guldo.name=Guldo
+entity.dbe:hitto.name=Hit
+entity.dbe:jeice.name=Jeice
+entity.dbe:kami_sama.name=Kami-sama
+entity.dbe:ki_attack.name=Ataque de Ki
+entity.dbe:kid_buu.name=Majin Boo (Niño)
+entity.dbe:king_cold.name=Rey Cold
+entity.dbe:king_kai.name=Kaio-sama
+entity.dbe:korin.name=Maestro Karin
+entity.dbe:krillin.name=Krilin
+entity.dbe:magetta.name=Magetta
+entity.dbe:majin_vegeta.name=Majin Vegeta
+entity.dbe:master_roshi.name=Maestro Roshi
+entity.dbe:merchant.name=Comerciante
+entity.dbe:missile.name=Misil
+entity.dbe:mr_popo.name=Sr. Popo
+entity.dbe:namekian.name=Namekiano
+entity.dbe:namekian_frog.name=Rana de Namek
+entity.dbe:nappa.name=Nappa
+entity.dbe:piccolo.name=Piccolo
+entity.dbe:piccolo_enemy.name=Piccolo
+entity.dbe:pirate_robot.name=Robot Pirata
+entity.dbe:porunga.name=Porunga
+entity.dbe:puipui.name=Pui Pui
+entity.dbe:pterosaur.name=Pterosaurio
+entity.dbe:raditz.name=Raditz
+entity.dbe:recoome.name=Recoome
+entity.dbe:saber_tooth_tiger.name=Tigre Dientes de Sable
+entity.dbe:saibaman.name=Saibaman
+entity.dbe:saibabrute.name=Saibabrute
+entity.dbe:shadow_dummy.name=Sombra de Entrenamiento
+entity.dbe:shenron.name=Shenlong
+entity.dbe:shisami.name=Shisami
+entity.dbe:super_buu.name=Super Boo
+entity.dbe:tagoma.name=Tagoma
+entity.dbe:unigame.name=Tortuga del Maestro Roshi
+entity.dbe:vegeta.name=Vegeta
+entity.dbe:vegeta_npc.name=Vegeta
+entity.dbe:whis.name=Whis
+entity.dbe:yakon.name=Yakon
+entity.dbe:zarbon.name=Zarbon
+
+
+
+
+
+## itens
+item.dbe:ajisa_orange=Naranja de Ajisa
+item.dbe:android_13_boots=Botas del Androide 13
+item.dbe:android_13_chestplate=Peto del Androide 13
+item.dbe:android_13_hat=Sombrero del Androide 13
+item.dbe:android_13_leggings=Pantalones del Androide 13
+item.dbe:android_16_boots=Botas del Androide 16
+item.dbe:android_16_chestplate=Peto del Androide 16
+item.dbe:android_16_leggings=Pantalones del Androide 16
+item.dbe:android_17_boots=Botas del Androide 17
+item.dbe:android_17_chestplate=Peto del Androide 17
+item.dbe:android_17_leggings=Pantalones del Androide 17
+item.dbe:android_21_majin_boots=Botas de Androide 21 Majin
+item.dbe:android_21_majin_shirt=Camisa de Androide 21 Majin
+item.dbe:android_21_majin_leggings=Pantalones de Androide 21 Majin
+item.dbe:angel_staff=Báculo de Ángel
+item.dbe:bardock_battle_boots=Botas de Combate de Bardock
+item.dbe:bardock_battle_chestplate=Peto de Combate de Bardock
+item.dbe:bardock_battle_leggings=Pantalones de Combate de Bardock
+item.dbe:baby_armor_boots=Botas de Baby
+item.dbe:baby_armor_chestplate=Peto de Baby
+item.dbe:baby_armor_leggings=Pantalones de Baby
+item.dbe:bansho_fan=Abanico Bansho
+item.dbe:battle_boots=Botas de Combate
+item.dbe:battle_chestplate=Peto de Combate
+item.dbe:battle_leggings=Pantalones de Combate
+item.dbe:beat_boots=Botas de Beat
+item.dbe:beat_chestplate=Peto de Beat
+item.dbe:beat_leggings=Pantalones de Beat
+item.dbe:black_flying_nimbus=Nube Voladora Negra
+item.dbe:brave_sword=Espada de los Valientes
+item.dbe:broly_battle_boots=Botas de Combate de Broly
+item.dbe:broly_battle_chestplate=Peto de Combate de Broly
+item.dbe:broly_battle_leggings=Pantalones de Combate de Broly
+item.dbe:broly_boots=Botas de Broly
+item.dbe:broly_leggings=Pantalones de Broly
+item.dbe:broly_pendant=Colgante de Broly
+item.dbe:bucket_medical_liquid=Balde de Líquido Medicinal
+item.dbe:bunny_costume_boots=Botas de Disfraz de Conejo
+item.dbe:bunny_costume_chestplate=Peto de Disfraz de Conejo
+item.dbe:bunny_costume_ears=Orejas de Disfraz de Conejo
+item.dbe:bunny_costume_leggings=Pantalones de Disfraz de Conejo
+item.dbe:change_hair=Cambiar Cabello
+item.dbe:chi_chi_boots=Botas de Milk
+item.dbe:chi_chi_chestplate=Peto de Milk
+item.dbe:chi_chi_leggings=Pantalones de Milk
+item.dbe:cooked_dinosaur_meat=Carne de Dinosaurio Asada
+item.dbe:cooked_giant_fish=Pez Gigante Asado
+item.dbe:christmas_costume=Disfraz Navideño
+item.dbe:divine_halo=Aureola Divina
+item.dbe:dragon_radar=Radar del Dragón
+item.dbe:elegant_suit_boots=Botas de Traje Elegante
+item.dbe:elegant_suit_hat=Sombrero de Traje Elegante
+item.dbe:elegant_suit_jacket=Chaqueta de Traje Elegante
+item.dbe:elegant_suit_leggings=Pantalones de Traje Elegante
+item.dbe:evolitium_axe=Hacha de Evolitium
+item.dbe:evolitium_crystal=Cristal de Evolitium
+item.dbe:evolitium_hoe=Azada de Evolitium
+item.dbe:evolitium_pickaxe=Pico de Evolitium
+item.dbe:evolitium_shovel=Pala de Evolitium
+item.dbe:evolitium_sword=Espada de Evolitium
+item.dbe:flying_nimbus=Nube Voladora
+item.dbe:frieza_pod=Nave de Freezer
+item.dbe:full_scouter=Scouter Completo
+item.dbe:functions=Funciones
+item.dbe:fused_zamasu_boots=Botas de Zamasu Fusionado
+item.dbe:fused_zamasu_chestplate=Peto de Zamasu Fusionado
+item.dbe:fused_zamasu_leggings=Pantalones de Zamasu Fusionado
+item.dbe:giant_fish=Pez Gigante
+item.dbe:glasses=Gafas
+item.dbe:goku_af_boots=Botas de Goku AF
+item.dbe:goku_af_chestplate=Peto de Goku AF
+item.dbe:goku_af_leggings=Pantalones de Goku AF
+item.dbe:goku_black_boots=Botas de Goku Black
+item.dbe:goku_black_chestplate=Peto de Goku Black
+item.dbe:goku_black_leggings=Pantalones de Goku Black
+item.dbe:goku_boots=Botas de Goku
+item.dbe:goku_casual_boots=Botas Casuales de Goku
+item.dbe:goku_casual_jacket=Chaqueta Casual de Goku
+item.dbe:goku_casual_leggings=Pantalones Casuales de Goku
+item.dbe:goku_chestplate=Peto de Goku
+item.dbe:goku_gt_boots=Botas de Goku GT
+item.dbe:goku_gt_chestplate=Camisa de Goku GT
+item.dbe:goku_gt_leggings=Pantalones de Goku GT
+item.dbe:goku_leggings=Pantalones de Goku
+item.dbe:grandpa_gohan_mask=Máscara del Abuelo Gohan
+item.dbe:hakaishin_boots=Botas de Hakaishin
+item.dbe:hakaishin_chestplate=Peto de Hakaishin
+item.dbe:hakaishin_leggings=Pantalones de Hakaishin
+item.dbe:halo=Aureola
+item.dbe:hoi_poi_capsule=Cápsula Hoi-Poi
+item.dbe:headband=Bandana Roja
+item.dbe:kaioshin_boots=Botas de Kaioshin
+item.dbe:kaioshin_chestplate=Peto de Kaioshin
+item.dbe:kaioshin_leggings=Pantalones de Kaioshin
+item.dbe:katana=Katana
+item.dbe:katchin_shard=Fragmento de Katchin
+item.dbe:maid_costume_boots=Botas de Sirvienta
+item.dbe:maid_costume_chestplate=Blusa de Sirvienta
+item.dbe:maid_costume_hat=Sombrero de Sirvienta
+item.dbe:maid_costume_skirt=Falda de Sirvienta
+item.dbe:majin_vegeta_boots=Botas de Majin Vegeta
+item.dbe:majin_vegeta_shirt=Peto de Majin Vegeta
+item.dbe:majin_vegeta_leggings=Pantalones de Majin Vegeta
+item.dbe:medical_moss=Musgo Medicinal
+item.dbe:medical_moss_seeds=Semillas de Musgo Medicinal
+item.dbe:medicinal_soup=Sopa Medicinal
+item.dbe:menu=Menú
+item.dbe:music_disc_hero.desc=Flow - Hero
+item.dbe:nanochip=Nanochip
+item.dbe:piccolo_boots=Botas de Piccolo
+item.dbe:piccolo_cape=Capa de Piccolo
+item.dbe:piccolo_chestplate=Peto de Piccolo
+item.dbe:piccolo_leggings=Pantalones de Piccolo
+item.dbe:piccolo_turban=Turbante de Piccolo
+item.dbe:potara_earring=Pendiente Potara
+item.dbe:potara_earrings=Pendientes Potara
+item.dbe:power_fruit=Fruta del Poder
+item.dbe:power_pole=Báculo Sagrado
+item.dbe:pride_troopers_boots=Botas de las Tropas del Orgullo
+item.dbe:pride_troopers_chestplate=Peto de las Tropas del Orgullo
+item.dbe:pride_troopers_leggings=Pantalones de las Tropas del Orgullo
+item.dbe:ramen=Ramen
+item.dbe:raw_dinosaur_meat=Carne de Dinosaurio Cruda
+item.dbe:saber_tooth_tiger_hide=Piel de Tigre Dientes de Sable
+item.dbe:sacred_water_flask=Frasco de Agua Sagrada
+item.dbe:saibaman_seed=Semilla Saibaman
+item.dbe:saiyaman_boots=Botas del Saiyaman
+item.dbe:saiyaman_chestplate=Peto del Saiyaman
+item.dbe:saiyaman_helmet=Casco del Saiyaman
+item.dbe:saiyaman_leggings=Pantalones del Saiyaman
+item.dbe:scouter=Scouter
+item.dbe:senzu_bean=Semilla del Ermitaño
+item.dbe:tapion_boots=Botas de Tapion
+item.dbe:tapion_chestplate=Peto de Tapion
+item.dbe:tapion_leggings=Pantalones de Tapion
+item.dbe:techniques=Técnicas
+item.dbe:training_armor=Armadura de Entrenamiento
+item.dbe:training_shirt=Camiseta de Entrenamiento
+item.dbe:trunks_boots=Botas de Trunks
+item.dbe:trunks_chestplate=Blusa de Trunks
+item.dbe:trunks_leggings=Pantalones de Trunks
+item.dbe:turtle_shell=Caparazón de Tortuga
+item.dbe:vegeta_battle_boots=Botas de Combate de Vegeta
+item.dbe:vegeta_battle_chestplate=Peto de Combate de Vegeta
+item.dbe:vegeta_battle_leggings=Pantalones de Combate de Vegeta
+item.dbe:vegeta_cell_battle_boots=Botas de Combate de Vegeta (Saga Cell)
+item.dbe:vegeta_cell_battle_chestplate=Peto de Combate de Vegeta (Saga Cell)
+item.dbe:vegeta_cell_battle_leggings=Pantalones de Combate de Vegeta (Saga Cell)
+item.dbe:workout_weights=Pesas de Entrenamiento
+item.dbe:xeno_goku_black_boots=Botas de Goku Xeno Black
+item.dbe:xeno_goku_black_leggings=Pantalones de Goku Xeno Black
+item.dbe:xeno_goku_black_mask=Máscara de Goku Xeno Black
+item.dbe:xeno_goku_black_shirt=Camisa de Goku Xeno Black
+item.dbe:xeno_goku_boots=Botas de Goku Xeno
+item.dbe:xeno_goku_leggings=Pantalones de Goku Xeno
+item.dbe:xeno_goku_shirt=Camisa de Goku Xeno
+item.dbe:zamasu_boots=Botas de Zamasu
+item.dbe:zamasu_chestplate=Peto de Zamasu
+item.dbe:zamasu_leggings=Pantalones de Zamasu
+item.dbe:z_sword=Espada Z
+
+
+
+
+
+## interações
+action.interact.ride.dinosaur=Montar Dinosaurio
+action.interact.ride.flying_nimbus=Subir a la Nube Voladora
+action.interact.ride.pterosaur=Montar Pterosaurio
+action.interact.ride.vehicle=Entrar
+
+
+
+
+
+## mensagens
+## comuns
+message.senzuBeanDaily.korinWarning=§eKarin quiere darte una Semilla del Ermitaño. Ve con él para recogerla.
+message.senzuBeanDaily.error=§cYa has obtenido todas las Semillas del Ermitaño de hoy.
+message.changeHair.withoutCutsWarning=§cNo hay cortes de cabello disponibles para tu raza.
+message.level.up=§a¡Has alcanzado el nivel %s!
+message.noKi.warning=§cAsegúrate de acumular Ki antes de usar esta función.
+message.safeRegion.exit=§6Estás saliendo de la zona segura %s.
+message.safeRegion.join=§6Estás entrando en la zona segura %s.
+message.safeRegion.noPermission=§c¡No tienes permiso para romper o colocar bloques aquí!
+message.shadowDummy.cooldownWarning=§cEspera %s para invocar otra sombra de entrenamiento.
+message.shenron.wishGranted=§eTu deseo ha sido concedido, ¡hasta luego!
+message.summon.obstructedArea=§cNo puedes invocar aquí. ¡El área está obstruida!
+message.unlockedTransformation=§a¡Nueva transformación alcanzada: %s!
+## aprender skills
+message.learn.error.1=§c¡Puntos de entrenamiento insuficientes!
+message.learn.error.2=§cPara usar %s es necesario desbloquearla.
+message.learn.error.3=§cYa posees esta habilidad.
+message.learn.success=§a¡La habilidad %s ha sido desbloqueada!
+## missões
+message.quest.completed=§aMisión completada: %s.
+message.quest.error.duplicateTypeActive=§cNo es posible tener 2 misiones %s activas al mismo tiempo.
+message.quest.error.recentlyStarted=§cHas iniciado este objetivo recientemente. Para reiniciarlo, espera %s.
+message.quest.error.safeRegion=§cNo es posible iniciar este objetivo en zonas seguras.
+message.quest.objective.failed=§cObjetivo fallido: %s. El progreso fue reiniciado.
+message.quest.newQuestAvailable=§6Nueva misión disponible: %s.
+message.quest.objectiveUpdated=§a%s: el objetivo fue actualizado.
+message.quest.started=§aMisión iniciada: %s.
+
+
+
+
+
+## missões
+quest.challenge.plural=Desafíos
+quest.challenge.single=Desafío
+quest.main.plural=Principales
+quest.main.single=Principal
+quest.mentor.plural=Mentores
+quest.mentor.single=Mentor
+quest.side.plural=Secundarias
+quest.side.single=Secundaria
+quest.objectiveCompleted=Completado
+quest.objective.collect_item=Recolecta %s
+quest.objective.defeat_enemy=Derrota a %s
+quest.objective.defeat_enemy_time=Derrota a %s en
+quest.objective.defeat_enemy_location=Derrota a %s en %s
+quest.objective.defeat_enemy_location_time=Derrota a %s en %s en
+quest.objective.deliver_item=Lleva %s a %s
+quest.objective.enter_biome=Ve al bioma %s en %s
+quest.objective.enter_region=Ve a %s
+quest.objective.enter_structure=Ve a %s en %s
+quest.objective.interact_npc=Habla con %s
+quest.objective.learn_skill=Desbloquea %s
+quest.objective.unlock_transformation=Desbloquea la transformación %s
+quest.objective.use_training_weight=Mantén %s equipado durante todo el objetivo
+quest.reward.friendship_points=%s punto(s) de amistad con %s
+quest.reward.training_points=%s punto(s) de entrenamiento
+quest.reward.zeni=%s zeni
+quest.reward.z_points=%s Punto(s) Z
+
+
+
+
+
+## missões saga
+## saga saiyan
+quest.saga_saiyan_1.title=El Guerrero Llamado Raditz
+quest.saga_saiyan_1.text=Raditz, un extraño guerrero del espacio, llegó diciendo ser el hermano de Goku. No vino en son de paz. ¡Enfréntalo para defender la Tierra!
+quest.saga_saiyan_1.objective_1.dialog_1=Argh... entonces tú también sentiste ese poder devastador acercándose.
+quest.saga_saiyan_1.objective_1.dialog_2=Ya luché contra él. Es mucho más fuerte de lo que parece. Podemos unirnos e investigar el lugar... pero no creas que estoy de tu lado. Solo no quiero que esto arruine mis planes.
+quest.saga_saiyan_1.objective_1.dialog_3=Está cerca del bioma de Dirtstone. Si quieres probar suerte, puedes encontrarlo allí.
+quest.saga_saiyan_1.objective_4.dialog_1=Tu cuerpo cae sin fuerzas. El dolor es intenso, pero tu determinación jamás vaciló. Luchaste hasta el final, enfrentaste a un enemigo muy por encima de tus límites y, incluso en la derrota, probaste tu valentía. Tu sacrificio no fue en vano.
+quest.saga_saiyan_1.objective_5.dialog_1=Tu conciencia despierta en un lugar extraño. Un largo camino se extiende frente a ti. Este es el camino hacia el Otro Mundo. Sigue adelante... Enma Daio-sama te espera para juzgar tu destino.
+quest.saga_saiyan_1.objective_6.dialog_1=Hmph... Kami-sama habló muy bien de ti.
+quest.saga_saiyan_1.objective_6.dialog_2=Por lo que está por venir, se decidió que conservarás tu cuerpo físico aquí en el Otro Mundo.
+quest.saga_saiyan_1.objective_6.dialog_3=Serás enviado al planeta del Sr. Kaio-sama. La batalla aún no ha terminado. En aproximadamente un año, dos guerreros mucho más poderosos llegarán a la Tierra. Prepárate... el verdadero desafío apenas está comenzando.
+quest.saga_saiyan_2.title=Una Nueva Amenaza se Aproxima
+quest.saga_saiyan_2.text=Tras la caída de Raditz, Goku descubre que dos guerreros aún más poderosos vienen en camino a la Tierra. Llegarán en un año. ¡Usa ese tiempo para prepararte!
+quest.saga_saiyan_2.objective_2.dialog_1=¡Oh ho ho! ¿Así que tú eres el nuevo alumno que envió Kami-sama? ¡Interesante!
+quest.saga_saiyan_2.objective_2.dialog_2=Hmmm... tu ki aún es débil, pero hay potencial. ¡Eso me gusta!
+quest.saga_saiyan_2.objective_2.dialog_3=Si quieres entrenar conmigo, necesitarás disciplina... y tal vez entender algunos de mis chistes, ¡ho ho ho!
+quest.saga_saiyan_2.objective_4.dialog_1=Oh ho ho... jeje... estoy sintiendo un cambio en tu ki.
+quest.saga_saiyan_2.objective_4.dialog_2=Mira nada más, es más firme, más controlado. El entrenamiento está dando resultados.
+quest.saga_saiyan_2.objective_4.dialog_3=¡No te emociones demasiado! Aún queda mucho por aprender. Sigue entrenando, porque cuando esos guerreros lleguen a la Tierra, necesitarás esa fuerza... ¡ho ho ho!
+quest.saga_saiyan_2.objective_5.dialog_1=Veo que regresaste del Otro Mundo... y tu ki está mucho más afilado.
+quest.saga_saiyan_2.objective_5.dialog_2=El entrenamiento con el Señor Kaio-sama no es sencillo. Has superado otra etapa importante.
+quest.saga_saiyan_2.objective_5.dialog_3=Sigue fortaleciéndote. La verdadera batalla está cada vez más cerca.
+quest.saga_saiyan_3.title=Invasores Verdes: Los Saibaman
+quest.saga_saiyan_3.text=¡Nappa y Vegeta finalmente han llegado! Nappa libera extrañas criaturas llamadas Saibaman para poner a prueba a los guerreros de la Tierra. ¡Acaba con todos!
+quest.saga_saiyan_4.title=Nappa en Furia
+quest.saga_saiyan_4.text=Con los Saibaman derrotados, Nappa entra en acción y comienza a devastarlo todo a su paso. ¡Derótalo antes de que sea demasiado tarde!
+quest.saga_saiyan_5.title=El Orgullo de Vegeta
+quest.saga_saiyan_5.text=¡Ahora es el turno de Vegeta! El príncipe de los Saiyajin ha revelado su verdadero poder. ¡Esta será la batalla más difícil de tu vida!
+## saga freeza
+quest.saga_frieza_1.title=Invasores en Namek
+quest.saga_frieza_1.text=Tras la brutal batalla contra los Saiyajin, la Tierra quedó devastada. Muchos amigos cayeron... incluyendo a Kami-sama y Piccolo. Con sus muertes, las Esferas del Dragón desaparecieron. Sin embargo, Kuririn tiene una idea: buscar las legendarias Esferas del Dragón en el planeta natal de Piccolo, Namekusei. ¿Aún queda esperanza?
+quest.saga_frieza_1.objective_1.dialog_1=Kuririn: La situación es grave... perdimos a muchos amigos, y ahora ni siquiera podemos revivirlos. Kami-sama y Piccolo ya no están.
+quest.saga_frieza_1.objective_1.dialog_2=Kuririn: Pero... ¿y si existen otras Esferas del Dragón? Quiero decir... Piccolo vino de otro planeta, ¿no? ¡Tal vez allí también existan esferas!
+quest.saga_frieza_1.objective_1.dialog_3=Kuririn: El Maestro Kaio-sama me dijo que el planeta natal de Kami-sama se llama Namekusei. Si encontramos esas esferas, ¡quizá podamos traer a todos de vuelta!
+quest.saga_frieza_1.objective_1.dialog_4=Kuririn: No tenemos tiempo que perder. Vamos a Namekusei cuanto antes. Si hay una posibilidad... ¡tenemos que intentarlo!
+quest.saga_frieza_1.objective_3.dialog_1=Soldado de Freezer: ¡Hmpf! ¿Estos gusanos de la Tierra creen que pueden interferir en los planes del Lord Freezer? ¡Prepárate para morir!
+quest.saga_frieza_1.objective_3.dialog_2=Soldado de Freezer: Este planeta ya tiene dueño, y ustedes no son bienvenidos aquí. ¡Márchense o serán exterminados!
+quest.saga_frieza_2.title=Confrontación con Cui
+quest.saga_frieza_2.text=Cui fue enviado para eliminar cualquier resistencia en Namekusei. Te subestima... ¡demuéstrale que está equivocado!
+quest.saga_frieza_3.title=El Brutal Dodoria
+quest.saga_frieza_3.text=Dodoria está eliminando a cualquiera que se cruce en su camino. ¡Enfréntalo antes de que consiga más esferas!
+quest.saga_frieza_4.title=Zarbon Revela su Verdadera Forma
+quest.saga_frieza_4.text=Zarbon parece refinado, pero esconde una forma monstruosa. ¡Prepárate para una batalla intensa!
+quest.saga_frieza_5.title=Llegada de la Fuerza Ginyu
+quest.saga_frieza_5.text=¡Freezer convocó a su tropa de élite! Derrota a Guldo y Recoome para seguir avanzando.
+quest.saga_frieza_6.title=Burter y Jeice Atacan
+quest.saga_frieza_6.text=La dupla veloz de la Fuerza Ginyu ha llegado. ¡Demuestra que eres más rápido y más fuerte que ellos!
+quest.saga_frieza_7.title=Capitán Ginyu y el Intercambio de Cuerpos
+quest.saga_frieza_7.text=El Capitán Ginyu usa una técnica peligrosa para intercambiar cuerpos con sus oponentes. ¡Derótalo antes de que la use contra ti!
+quest.saga_frieza_8.title=La Furia de Freezer
+quest.saga_frieza_8.text=Con su tropa derrotada, Freezer decidió pelear personalmente. ¡Prepárate para enfrentar su verdadero poder!
+quest.saga_frieza_9.title=Forma Final: Freezer
+quest.saga_frieza_9.text=¡Freezer ha alcanzado su forma final! Esta es la batalla más difícil de tu vida, ¡no pierdas el control ahora!
+quest.saga_frieza_10.title=Soldados del Emperador
+quest.saga_frieza_10.text=Freezer y su padre, el Rey Cold, llegaron a la Tierra con un nuevo ejército. Antes del enfrentamiento directo, derrota a los soldados que amenazan a los ciudadanos.
+quest.saga_frieza_11.title=El Regreso de Freezer y el Rey Cold
+quest.saga_frieza_11.text=Tras eliminar a sus soldados, Freezer revela su plan: ¡destruir la Tierra! Enfrenta al Rey Cold y prepárate para el reencuentro con Freezer.
+quest.saga_frieza_12.title=Fin de la Amenaza
+quest.saga_frieza_12.text=Ha llegado la hora de acabar con Freezer de una vez por todas. Esta es tu oportunidad de proteger la Tierra, ¡lucha con todo lo que tienes!
+## saga android
+quest.saga_android_1.title=Un Futuro Aterrador
+quest.saga_android_1.text=Trunks vino del futuro con una oscura advertencia: en pocos años aparecerán androides asesinos que lo destruirán todo. ¡Prepárate!
+quest.saga_android_2.title=Choque con los Androides 19 y 20
+quest.saga_android_2.text=Los Androides 19 y 20 han aparecido y están causando estragos en la ciudad. ¡Detenlos antes de que sea demasiado tarde!
+quest.saga_android_3.title=Duelo contra el Androide 17
+quest.saga_android_3.text=Después de que los primeros androides fueron derrotados, el Dr. Gero liberó a otros dos: 17 y 18. El Androide 17 está eliminando a cualquiera que se cruce en su camino. ¡Enfréntalo con todo lo que tengas!
+quest.saga_android_4.title=Enfrentando al Androide 18
+quest.saga_android_4.text=El Androide 18 ha demostrado su fuerza contra los Guerreros Z. Es fría, calculadora y extremadamente poderosa. ¡Prepárate para la batalla!
+quest.saga_android_5.title=El Monstruo Perfecto
+quest.saga_android_5.text=Ha aparecido un nuevo enemigo: Cell, un bioandroide creado para absorber a los demás. Está suelto. ¡Deténlo antes de que alcance su forma perfecta!
+## saga majin
+quest.saga_majin_1.title=Pui Pui, el Guerrero de Zoon
+quest.saga_majin_1.text=El hechicero Babidi ha iniciado su plan para liberar a Majin Boo reuniendo energía mediante combates a bordo de su nave. Su primer defensor es Pui Pui, del planeta Zoon. ¡Supera este desafío para seguir avanzando!
+quest.saga_majin_2.title=Yakon, el Devorador de Luz
+quest.saga_majin_2.text=Yakon se alimenta de la energía luminosa de sus oponentes. ¡Lucha con inteligencia y evita que absorba tu poder!
+quest.saga_majin_3.title=Dabura, Rey de los Demonios
+quest.saga_majin_3.text=Dabura, el comandante más fuerte de Babidi, te espera. Es cruel e implacable. ¡Derótalo para arruinar los planes del hechicero!
+quest.saga_majin_4.title=Majin Vegeta
+quest.saga_majin_4.text=Controlado por Babidi, Vegeta ha liberado todo su orgullo y su poder. Esta pelea es más que una batalla... es un ajuste de cuentas.
+quest.saga_majin_5.title=El Despertar de Majin Boo
+quest.saga_majin_5.text=¡Babidi lo logró! Majin Boo ha sido liberado. A pesar de su apariencia infantil, es una amenaza devastadora que debe ser detenida de inmediato.
+quest.saga_majin_6.title=Super Boo, Furia en Ascenso
+quest.saga_majin_6.text=Tras absorber a poderosos guerreros, Majin Boo evolucionó a una forma aún más destructiva. Esta será tu batalla más difícil hasta ahora.
+quest.saga_majin_7.title=Kid Boo, Maldad Pura
+quest.saga_majin_7.text=Kid Boo es la forma original y más peligrosa de Majin Boo: caótico, despiadado e impredecible. ¡La batalla final por el universo comienza ahora!
+## saga beerus
+quest.saga_beerus_1.title=El Despertar de Bills
+quest.saga_beerus_1.text=Tras un largo sueño, el Dios de la Destrucción, Bills, despertó con una extraña premonición: un ser de poder increíble podría aparecer pronto. Ha llegado a la Tierra en busca de ese guerrero...
+quest.saga_beerus_1.objective_1.dialog_1=Oh, ¿tú eres el guerrero que estamos buscando? Claro que no. Tu ki está muy lejos de ser divino y ni se acerca al nivel de Bills...
+quest.saga_beerus_1.objective_1.dialog_2=Está furioso. Tal vez destruir este planeta lo calme un poco. Será mejor que encuentres a ese guerrero poderoso... ¡rápido!
+quest.saga_beerus_1.objective_4.dialog_1=Debo admitir que la habilidad que posees parece no tener límites.
+quest.saga_beerus_1.objective_4.dialog_2=Sin embargo, no te llamaría mi archirrival... ¡Adiós!
+## saga freeza dourado
+quest.saga_golden_frieza_1.title=El Regreso de un Viejo Enemigo
+quest.saga_golden_frieza_1.text=Freezer ha sido resucitado por sus seguidores y está entrenando para vengarse. ¡Prepárate para el caos que se avecina!
+quest.saga_golden_frieza_2.title=El Ejército de Freezer Ataca
+quest.saga_golden_frieza_2.text=Con un nuevo ejército, Freezer inicia su ofensiva. ¡Enfrenta a sus soldados mientras él se prepara para el golpe final!
+quest.saga_golden_frieza_3.title=Tagoma y Shisame
+quest.saga_golden_frieza_3.text=Dos leales guerreros de Freezer están destruyendo ciudades en su nombre. ¡Enfréntalos y detén más destrucción!
+quest.saga_golden_frieza_4.title=Golden Freezer
+quest.saga_golden_frieza_4.text=Freezer ha dominado una nueva forma: la Forma Dorada. Su poder es inmenso. ¡Esta será una batalla como ninguna otra!
+## saga universo 6
+quest.saga_universe_6_1.title=El Torneo de los Universos
+quest.saga_universe_6_1.text=El Dios de la Destrucción Champa ha lanzado un desafío: ¡un torneo entre los mejores guerreros de los Universos 6 y 7! Has sido elegido para representar a tu universo. Antes de que comience la batalla, entrena con los Guerreros Z y demuestra que eres digno de este enfrentamiento legendario.
+quest.saga_universe_6_1.objective_1.dialog_1=Este torneo no será como ninguna pelea que hayas enfrentado antes.
+quest.saga_universe_6_1.objective_1.dialog_2=Debes aprender a mantener la calma y analizar cada movimiento del enemigo.
+quest.saga_universe_6_1.objective_1.dialog_3=Entrenemos tu técnica y tu percepción. ¡Atácame cuando estés listo!
+quest.saga_universe_6_1.objective_3.dialog_1=Jeje, ¿así que tú también participarás en el torneo? ¡Eso es increíble!
+quest.saga_universe_6_1.objective_3.dialog_2=Pero oye, los del Universo 6 no son cualquier cosa. ¡Tendrás que darlo todo!
+quest.saga_universe_6_1.objective_3.dialog_3=Entrenemos un poco. ¡Quiero ver si puedes soportar una pelea real conmigo!
+quest.saga_universe_6_1.objective_5.dialog_1=¡Buen trabajo! Ahora prepárate... ¡el torneo está a punto de comenzar!
+quest.saga_universe_6_2.title=Botamo, el Oso de Goma
+quest.saga_universe_6_2.text=Tu primer oponente es Botamo. Puede absorber ataques físicos como si no sintiera dolor. ¡Usa estrategia para derrotarlo!
+quest.saga_universe_6_3.title=Frost, el "Héroe" del Universo 6
+quest.saga_universe_6_3.text=Frost parece noble, pero oculta oscuras intenciones. ¡Lucha con cuidado para no caer en sus trucos!
+quest.saga_universe_6_4.title=Magetta, el Guerrero de Lava
+quest.saga_universe_6_4.text=El cuerpo metálico y ardiente de Magetta puede desestabilizar a cualquiera. ¡Usa tu resistencia para superarlo!
+quest.saga_universe_6_5.title=Cabba, el Joven Saiyajin
+quest.saga_universe_6_5.text=Cabba es un Saiyajin del Universo 6 con corazón puro y gran poder. ¡Muéstrale el verdadero orgullo de los Saiyajin!
+quest.saga_universe_6_6.title=Hit, el Asesino Legendario
+quest.saga_universe_6_6.text=Hit ha dominado técnicas de salto temporal que desafían incluso a los dioses. ¡Supera los límites del tiempo para derrotarlo!
+
+
+
+
+
+## missões secundárias
+## battle jacket return
+quest.battle_jacket_return.title=Restos de la Red Ribbon
+quest.battle_jacket_return.text=Una máquina de guerra de la antigua Red Ribbon fue avistada activa nuevamente. Parece estar patrullando las llanuras en busca de algo. o alguien. Investiga y destruye la amenaza antes de que cause daños.
+quest.battle_jacket_return.dialog_1=Algo extraño está sucediendo. una vieja unidad de la Red Ribbon está operando sola.
+quest.battle_jacket_return.dialog_2=Fue vista en las llanuras, liberando ráfagas de energía contra cualquiera que se acerque.
+quest.battle_jacket_return.dialog_3=Quizás sea un remanente del Dr. Gero. De cualquier forma, debe ser detenida.
+quest.battle_jacket_return.objective_2.dialog_1=Así que aún estaba activa. Increíble que haya durado tanto tiempo.
+quest.battle_jacket_return.objective_2.dialog_2=¿La derrotaste? Excelente. La Red Ribbon nunca aprende, ¿verdad?
+quest.battle_jacket_return.objective_2.dialog_3=Mantente atento. Donde hay una máquina como esa, puede haber más.
+## bring fish for karin
+quest.bring_fish_for_karin.title=Pez por Nube
+quest.bring_fish_for_karin.text=¡Miau! Veo que estás buscando una forma más eficiente de moverte, ¿no es así? Puedo darte una de mis Nubes Voladoras, pero antes, ¿podrías traerme algunos peces?
+quest.bring_fish_for_karin.dialog_1=Miau. Veo que aún no dominas bien los cielos.
+quest.bring_fish_for_karin.dialog_2=Subir hasta aquí no es tarea fácil para cualquiera. Pero quizás estés listo.
+quest.bring_fish_for_karin.dialog_3=Tráeme algunos peces frescos y, quién sabe, tal vez comparta una de mis Nubes Voladoras contigo.
+quest.bring_fish_for_karin.objective_2.dialog_1=Miau. ¡Qué aroma tan delicioso! Realmente trajiste buenos peces.
+quest.bring_fish_for_karin.objective_2.dialog_2=Veo que tienes potencial. Y también buen gusto culinario, jeje.
+quest.bring_fish_for_karin.objective_2.dialog_3=Como prometí, aquí está una de mis Nubes Voladoras. Cuídala bien. no todos logran usarla.
+## fetch bulma outfit
+quest.fetch_bulma_outfit.title=El Viejo Pervertido
+quest.fetch_bulma_outfit.text=¡Jojojo! ¿Así que viniste hasta mi casa? ¡Muy bien! Entonces, quieres ser mi alumno, ¿cierto? Te diré algo, no cualquiera puede ser mi alumno, pero te entrenaré si antes me traes una cosita, ¡jejeje!
+quest.fetch_bulma_outfit.dialog_1=Jejeje. ¡cuánto tiempo sin recibir una visita así!
+quest.fetch_bulma_outfit.dialog_2=¿Quieres ser mi alumno? ¡Ja! Primero tendrás que impresionarme.
+quest.fetch_bulma_outfit.dialog_3=Tráeme algo. especial. Un atuendo de Bulma serviría perfectamente, ¡jojojo!
+## piccolo trial
+quest.piccolo_trial.title=Desafío de Piccolo
+quest.piccolo_trial.text=Hmph... ¿quieres que te enseñe una técnica mía? Entonces demuestra tu valor ahora. No tengo tiempo para guerreros indecisos. Si no logras derrotarme rápidamente, no mereces siquiera escuchar su nombre.
+## pirate robot treasure
+quest.pirate_robot_treasure.title=Tesoro del Pirata de Hierro
+quest.pirate_robot_treasure.text=Dicen que un antiguo pirata construyó un cuerpo metálico para prolongar su vida y proteger su tesoro. Fue visto vagando en una costa aislada. tal vez haya algo valioso escondido por allí.
+quest.pirate_robot_treasure.dialog_1=Oye. escuché rumores sobre un robot pirata que aparece en las playas durante la noche.
+quest.pirate_robot_treasure.dialog_2=Protege un cofre enterrado que, según dicen, guarda artefactos antiguos.
+quest.pirate_robot_treasure.dialog_3=Si quieres probar suerte, ve a un bioma costero. Pero cuidado. no le gustan las visitas.
+quest.pirate_robot_treasure.objective_3.dialog_1=¿Así que enfrentaste al Robo Pirata? ¡Impresionante!
+quest.pirate_robot_treasure.objective_3.dialog_2=Tal vez ese tesoro tenga más secretos de los que imaginamos.
+quest.pirate_robot_treasure.objective_3.dialog_3=Usa lo que encontraste con sabiduría. No todo el poder proviene del combate.
+## saibaman challenge
+quest.saibaman_challenge.title=Prueba de los Saibamans
+quest.saibaman_challenge.text=Saibamans comenzaron a surgir en gran número, atacando a cualquiera que se acerque. Criaturas simples, pero creadas solo para luchar hasta la muerte. Cada oleada parece más agresiva que la anterior. Resiste y elimínalos a todos antes de que la situación se salga de control.
+quest.saibaman_challenge.dialog_1=Saibamans... surgiendo de la nada.
+quest.saibaman_challenge.dialog_2=No retroceden, no piensan. Solo atacan.
+quest.saibaman_challenge.dialog_3=Si caigo aquí, seré solo otro cuerpo en el suelo.
+## train with goku
+quest.train_with_goku.title=¡Vamos a Entrenar!
+quest.train_with_goku.text=¡Hola! Sentí tu ki desde lejos. ¡pareces fuerte! ¿Qué tal si entrenamos un poco? Prometo no usar todo de una vez, a menos que lo soportes, ¡jeje!
+quest.train_with_goku.dialog_1=¡Hola! Sentí un ki bastante interesante viniendo de aquí.
+quest.train_with_goku.dialog_2=¡Pareces fuerte! ¿Qué tal una pelea amistosa para entrar en calor?
+quest.train_with_goku.dialog_3=No te preocupes, me contendré. ¡al principio!
+## visit lookout
+quest.visit_lookout.title=Escalera hacia el Cielo
+quest.visit_lookout.text=Dicen que el Maestro Karin observa el mundo desde un lugar muy por encima de las nubes. Si eres digno, tal vez logres alcanzarlo. Ve a las coordenadas X:150 Z:150 y descubre lo que te espera allí arriba.
+quest.visit_lookout.objective_1.dialog_1=Dicen que en las alturas, sobre las nubes, vive alguien que observa toda la Tierra.
+quest.visit_lookout.objective_1.dialog_2=No todos logran alcanzar ese lugar. Pero quizás tú tengas lo necesario.
+quest.visit_lookout.objective_1.dialog_3=Ve al punto indicado. y sube. La verdad está allí arriba.
+quest.visit_lookout.objective_3.dialog_1=¿Oh? Así que lograste subir hasta aquí. nada mal para un principiante.
+quest.visit_lookout.objective_3.dialog_2=Soy el Maestro Karin. Muchos intentan alcanzarme, pocos lo logran.
+quest.visit_lookout.objective_3.dialog_3=Si estás aquí por poder, necesitarás más que piernas fuertes. Demuestra que eres digno.
+## whis ramen delivery
+quest.whis_ramen_delivery.title=Apetito Divino
+quest.whis_ramen_delivery.text=¿Oh? ¿Deseas entrenar conmigo? Qué curioso. Pero antes de iniciar cualquier instrucción, debo confesar algo: he oído hablar mucho sobre las peculiares delicias de tu planeta. Hay un plato en especial que llamó mi atención. ¿cómo lo llaman? ¿Ramen? ¡Sí, eso es! Un caldo caliente, fragante y lleno de sabor. Tráeme dos tazones, uno para mí y otro para el Lord Beerus. Si logran complacer nuestros paladares, tal vez me sienta inspirado a orientarte. ¿Qué te parece?
+quest.whis_ramen_delivery.dialog_1=¿Oh? Un mortal curioso se acerca. Qué sorpresa tan adorable.
+quest.whis_ramen_delivery.dialog_2=Soy Whis, asistente y maestro del Dios de la Destrucción. Encantado, supongo.
+quest.whis_ramen_delivery.dialog_3=¿Vienes en busca de poder? Qué predecible. Pero aun así, intrigante.
+quest.whis_ramen_delivery.dialog_4=Muy bien. Antes de hablar de entrenamiento, ¿qué tal algo sabroso para abrir mi apetito?
+quest.whis_ramen_delivery.objective_2.dialog_1=Ohh. ¡Qué aroma tan maravilloso! Este Ramen parece digno incluso de un banquete celestial.
+quest.whis_ramen_delivery.objective_2.dialog_2=¡Excelente presentación! Uno para mí. y el otro, naturalmente, para el Lord Beerus. ¡Qué delicia!
+quest.whis_ramen_delivery.objective_2.dialog_3=Muy bien. Realmente sabes cómo complacer. Un buen paladar es señal de sensibilidad, y eso será útil en el entrenamiento que sigue.
+## world connections
+quest.world_connections.title=Lazos de un Mundo Vivo
+quest.world_connections.text=Este mundo está hecho de batallas, pero también de encuentros. Cada persona que conoces, cada palabra intercambiada, deja una marca invisible en el destino. Antes de seguir adelante, camina por este mundo... y conoce a todos los que lo hacen estar vivo.
+quest.world_connections.dialog_1=¿Oh? Así que llegaste hasta aquí.
+quest.world_connections.dialog_2=Sabes, cuando creé este mundo, no pensé solo en luchas.
+quest.world_connections.dialog_3=Pensé en las personas. En cómo cada encuentro cambia a alguien.
+quest.world_connections.dialog_4=Si realmente quieres entender este universo, ve a hablar con todos.
+quest.world_connections.dialog_5=No luches. No corras. Solo conoce.
+quest.world_connections.objective_2.dialog_1=Veo que los encontraste a todos.
+quest.world_connections.objective_2.dialog_2=Guerreros, dioses, monstruos, personas comunes.
+quest.world_connections.objective_2.dialog_3=Todos forman parte de la misma historia.
+quest.world_connections.objective_2.dialog_4=Gracias por recorrer este mundo con respeto.
+quest.world_connections.objective_2.dialog_5=Mientras alguien los recuerde. este mundo continuará vivo.
+
+
+
+
+
+## ovos de invocação
+item.spawn_egg.entity.dbe:deer.name=Invocar Ciervo
+item.spawn_egg.entity.dbe:dinosaur.name=Invocar Dinosaurio
+item.spawn_egg.entity.dbe:giant_fish.name=Invocar Pez Gigante
+item.spawn_egg.entity.dbe:namekian_frog.name=Invocar Rana de Namek
+item.spawn_egg.entity.dbe:pterosaur.name=Invocar Pterosaurio
+item.spawn_egg.entity.dbe:saber_tooth_tiger.name=Invocar Tigre dientes de sable
+
+
+
+
+
+## minijogos
+minigame.concentration.text=Puntuación: §c%s§rRecompensa: §c%sTP%s§rIntentos restantes: §c%s§r
+
+
+
+
+
+## npcs
+ui.dbe.npc=Diálogo
+ui.dbe.npcIgnored.1=§eÉl/Ella no parece dispuesto(a) a conversar ahora.
+ui.dbe.npcIgnored.2=§eParece que este personaje prefiere quedarse en silencio.
+ui.dbe.npcIgnored.3=§eNo recibes ninguna respuesta.
+ui.dbe.npcIgnored.4=§eNo es un buen momento para hablar con él/ella.
+ui.dbe.npcIgnored.5=§eÉl/Ella te mira por un instante. y luego te ignora.
+ui.dbe.npcIgnored.6=§eSin respuesta. Tal vez sea mejor intentar más tarde.
+## akira toriyama
+ui.dbe.npcAkiraToriyama.title=Akira Toriyama
+ui.dbe.npcAkiraToriyamaMain.neutralText=Chicos, estén bien, como Goku y su grupo. ¡Yo también estaré bien!
+ui.dbe.npcAkiraToriyamaMain.goodText=¡Qué bueno ver héroes por aquí! Sigan protegiendo el mundo, como lo haría Goku.
+ui.dbe.npcAkiraToriyamaMain.evilText=Jeje. Ustedes, villanos, también hacen que la historia avance. ¡Solo no me hagan redibujar todo!
+## beerus
+ui.dbe.npcBeerus.title=Beerus
+ui.dbe.npcBeerusMain.neutralText=¿Te atreves a molestar a un Dios de la Destrucción? Hmph. Espero que valga mi tiempo. Muéstrame lo que tienes.
+ui.dbe.npcBeerusMain.goodText=Hmph. Héroes o no, me aburren menos que la nada. Veamos si sirven para algo.
+ui.dbe.npcBeerusMain.evilText=¡Ahora sí! Un poco de caos para condimentar mi día. ¡Demuestra que vales la molestia!
+ui.dbe.npcBeerusMain.skillsButton=Habilidades
+## bulma
+ui.dbe.npcBulma.title=Bulma
+ui.dbe.npcBulmaMain.neutralText=¡Hola! Soy Bulma. No soy mucho de pelear, pero mi inteligencia ya salvó el mundo varias veces. ¿Necesitas algo?
+ui.dbe.npcBulmaMain.goodText=¡Pareces confiable! Me gusta ayudar a personas que usan la cabeza antes que los puños. Tal vez tenga algo útil para ti.
+ui.dbe.npcBulmaMain.evilText=¡Oye, aléjate de mí con esa actitud! No ayudaré a alguien que solo piensa en causar problemas.
+ui.dbe.npcBulmaMain.shopButton=Inventos
+## cell
+ui.dbe.npcCell.title=Cell
+ui.dbe.npcCellMain.neutralText=Jejeje. Veo que viniste hasta mí. ¿Será que eres digno de convertirte en parte de mi perfección?
+ui.dbe.npcCellMain.goodText=Un corazón puro, pero débil. Qué desperdicio de energía. ¡Tal vez te absorba para fortalecerme aún más!
+ui.dbe.npcCellMain.evilText=Ahhh, ¡sí! Puedo sentir la oscuridad en ti. ¡Juntos podríamos esparcir el caos perfecto en este mundo!
+ui.dbe.npcCellMain.skillsButton=Habilidades
+## chi chi
+ui.dbe.npcChiChi.title=Chi-Chi
+ui.dbe.npcChiChiMain.neutralText=¡¿HAS VISTO A GOKU?! ¡Ese hombre siempre desaparece en el peor momento! Si no lo has visto, ¡dímelo ya y no me hagas perder el tiempo!
+ui.dbe.npcChiChiMain.goodText=Hmph. al menos pareces educado. Si llegas a ver a Goku por ahí, ¡MANDA QUE VUELVA A CASA! Mientras tanto. puedo venderte comida. ¡No es gratis, ¿oíste?!
+ui.dbe.npcChiChiMain.evilText=¡¿QUÉ?! ¡Con esa cara de problemas seguro eres igual que Goku! ¡No te vendo NADA! ¡Ahora quítate de mi vista!
+ui.dbe.npcChiChiMain.shopButton=Comprar Comida
+## enma daioh
+ui.dbe.npcEnmaDaioh.title=Enma-Daioh
+ui.dbe.npcEnmaDaiohMain.neutralText=¡Bienvenido al Otro Mundo! Lamentablemente has muerto, tu destino es incierto.
+ui.dbe.npcEnmaDaiohMain.goodText=Has muerto. pero fuiste un buen ser. Tal vez haya un lugar especial para ti del otro lado.
+ui.dbe.npcEnmaDaiohMain.evilText=¡Por fin apareces! Tu expediente es largo. ¡Jajaja! Te costará salir de esta.
+ui.dbe.npcEnmaDaiohMain.reviveButton=Revivir
+ui.dbe.npcEnmaDaiohMain.reincarnateButton=Reencarnar
+ui.dbe.npcEnmaDaiohReincarnate.text=Al reencarnar perderás tu cuerpo actual y todas tus estadísticas. ¿Deseas continuar?
+ui.dbe.npcEnmaDaiohReincarnate.confirmButton=Sí
+## goku
+ui.dbe.npcGoku.title=Goku
+ui.dbe.npcGokuMain.neutralText=¡Hola, soy Goku! Siempre listo para una buena batalla o para hacer nuevos amigos. ¿Qué está pasando? ¿Cómo puedo ayudarte hoy?
+ui.dbe.npcGokuMain.goodText=¡Genial! Pareces alguien que lucha por la justicia. ¡Vamos a hacernos más fuertes juntos!
+ui.dbe.npcGokuMain.evilText=Hmm. No me gusta esa energía tuya. Pero si quieres pelear, aceptaré. ¡Solo no me decepciones!
+ui.dbe.npcGokuMain.weightButton=Peso
+ui.dbe.npcGokuMain.skillsButton=Habilidades
+ui.dbe.npcGokuWeight.catchButton=Tomar Peso
+## kami sama
+ui.dbe.npcKamiSama.title=Kami-Sama
+ui.dbe.npcKamiSamaMain.neutralText=¡Me alegra verte vivo y lleno de energía! Si tienes dudas o deseas aprender algo, siéntete libre de preguntar. Estoy aquí para enseñarte algunas cosas.
+ui.dbe.npcKamiSamaMain.goodText=Siento la luz en tu corazón. Siempre es un placer ayudar a un guardián de la paz.
+ui.dbe.npcKamiSamaMain.evilText=No ofrezco conocimiento a quienes se pierden en la oscuridad. Vuelve cuando busques redención.
+ui.dbe.npcKamiSamaMain.cutTailButton=Cortar Cola
+ui.dbe.npcKamiSamaMain.skillsButton=Habilidades
+ui.dbe.npcKamiSamaCutTail.text=Al optar por cortar la cola, un saiyajin pierde la capacidad de transformarse en Ozaru, pero su defensa recibe un aumento de 1.1x.
+ui.dbe.npcKamiSamaCutTail.confirmButton=Cortar
+## king kai
+ui.dbe.npcKingKai.title=Sr. Kaioh
+ui.dbe.npcKingKaiMain.neutralText=¡Ah, por fin llegaste! He estado esperándote con ansias. ¡Estoy seguro de que mis técnicas serán inigualables!
+ui.dbe.npcKingKaiMain.goodText=¡Ja! ¡Un corazón puro y mente afilada! ¡Excelente! ¡Aprendamos técnicas increíbles!
+ui.dbe.npcKingKaiMain.evilText=No enseño técnicas sagradas a almas corrompidas. ¡Ve a reflexionar con Enma-Daioh!
+ui.dbe.npcKingKaiMain.weightButton=Peso
+ui.dbe.npcKingKaiMain.skillsButton=Habilidades
+ui.dbe.npcKingKaiWeight.catchButton=Tomar Peso
+## korin
+ui.dbe.npcKorin.title=Maestro Karin
+ui.dbe.npcKorinMain.neutralText=¡Miau! ¿Qué deseas?
+ui.dbe.npcKorinMain.goodText=¡Miau! Siempre me alegra ayudar a quien sigue el camino correcto. ¡Fuerza y bondad deben ir juntas!
+ui.dbe.npcKorinMain.evilText=Hmph. Los gatos tienen olfato para las malas intenciones. No doy Semillas del Ermitaño a quienes siguen el camino equivocado.
+ui.dbe.npcKorinMain.fishText=Miau. ¿Dónde están los peces que pedí? Pensándolo bien, ¡puedo darte también una Semilla del Ermitaño! Además de la Nube Voladora que prometí, claro.
+ui.dbe.npcKorinMain.senzuBeanButton=Semilla del Ermitaño
+ui.dbe.npcKorinMain.flyingNimbusButton=Nube Voladora
+## krillin
+ui.dbe.npcKrillin.title=Krilin
+ui.dbe.npcKrillinMain.neutralText=¡Hola! Soy Krilin. uno de los Guerreros Z. Jeh, tal vez no el más fuerte, pero sin duda el más listo. ¿Necesitas algo?
+ui.dbe.npcKrillinMain.goodText=¡Qué bien ver a alguien con buen corazón! Puedo enseñarte algunas técnicas, si quieres. Pero ve con calma, ¿eh?
+ui.dbe.npcKrillinMain.evilText=Eh, eh. ya he visto esa mirada antes, y nunca termina bien. Si buscas problemas, ¡que sepas que no me quedaré de brazos cruzados!
+ui.dbe.npcKrillinMain.skillsButton=Habilidades
+## master roshi
+ui.dbe.npcMasterRoshi.title=Maestro Roshi
+ui.dbe.npcMasterRoshiMain.neutralText=¡Jojojo! ¿Así que viniste a mí en busca de poder, joven saltamontes? Hmmm. ¡Pues debes saber que la fuerza no viene solo de los músculos, sino de la disciplina y la determinación! ¡Si quieres seguir el camino de los grandes guerreros, tendrás que entrenar duro!
+ui.dbe.npcMasterRoshiMain.goodText=Tienes ojos de determinación. y un corazón puro. Puedo enseñarte, ¡pero solo si tienes disciplina!
+ui.dbe.npcMasterRoshiMain.evilText=Hmph. No entreno a canallas. ¡Usa esa energía para reflexionar, no para destruir!
+ui.dbe.npcMasterRoshiMain.weightButton=Peso
+ui.dbe.npcMasterRoshiMain.skillsButton=Habilidades
+ui.dbe.npcMasterRoshiWeight.catchButton=Tomar Peso
+## merchant
+ui.dbe.npcMerchant.title=Mercader
+ui.dbe.npcMerchantMain.neutralText=Ahhh, ¡un viajero! Yo veo TODO lo que pasa por estas tierras. y tú pareces alguien interesante. Tal vez un buen negocio esté a punto de suceder, ¿hm?
+ui.dbe.npcMerchantMain.goodText=¡Ho ho ho! Esa aura. es de alguien que paga correctamente. ¡Me gusta eso! ¡Tengo objetos raros, brillantes y posiblemente mágicos! Nada maldito. probablemente.
+ui.dbe.npcMerchantMain.evilText=Je. esa cara tuya me dice que compras cosas sin preguntar de dónde vienen. También me gusta eso. Pero si intentas engañarme, DESAPAREZCO. Literalmente.
+ui.dbe.npcMerchantMain.clothingShopButton=Ropa
+## mr popo
+ui.dbe.npcMrPopo.title=Sr. Popo
+ui.dbe.npcMrPopoMain.neutralText=Saludos. Soy Mr. Popo, sirviente de Kami-Sama y guardián de este templo sagrado. Si deseas crecer en fuerza y sabiduría, puedo guiarte por el camino correcto.
+ui.dbe.npcMrPopoMain.goodText=Con un corazón puro, puedes alcanzar grandes alturas. Sígueme, con humildad.
+ui.dbe.npcMrPopoMain.evilText=Llevas oscuridad contigo. No puedo guiarte en este estado. Busca claridad antes de continuar.
+ui.dbe.npcMrPopoMain.skillsButton=Habilidades
+## piccolo
+ui.dbe.npcPiccolo.title=Piccolo
+ui.dbe.npcPiccoloMain.neutralText=Oh, ¿finalmente decidiste buscar mi ayuda? No es que necesite reconocimiento ni nada por el estilo, pero como siempre, estoy aquí para ayudarte con lo que necesites.
+ui.dbe.npcPiccoloMain.goodText=Veo potencial y una mente decidida. Pongámoslo a prueba.
+ui.dbe.npcPiccoloMain.evilText=Je. No impediré que te hagas más fuerte. Pero si te cruzas en mi camino, te arrepentirás.
+ui.dbe.npcPiccoloMain.weightButton=Peso
+ui.dbe.npcPiccoloMain.skillsButton=Habilidades
+ui.dbe.npcPiccoloWeight.catchButton=Tomar Capa
+## unigame
+ui.dbe.npcUnigame.title=Tortuga del Maestro Roshi
+ui.dbe.npcUnigameMain.neutralText=Hmmm. Otro visitante en la isla. Espero que tengas buenos modales. El Maestro Roshi siempre está ocupado. pero yo lo veo todo.
+ui.dbe.npcUnigameMain.goodText=Tienes un buen corazón. como el joven Goku lo tenía. Continúa por ese camino, con calma y sabiduría.
+ui.dbe.npcUnigameMain.evilText=Hmph. Tu olor no me agrada. Si estás aquí para causar problemas. recuerda: hasta una tortuga puede morder.
+## vegeta
+ui.dbe.npcVegeta.title=Vegeta
+ui.dbe.npcVegetaMain.neutralText=Hmph. ¿Así que viniste a mí? ¡Soy Vegeta, el Príncipe de todos los Saiyajin! No tengo tiempo para débiles. Si quieres algo, demuestra que mereces mi atención.
+ui.dbe.npcVegetaMain.goodText=Hmph. Veo determinación en ti. No la confundas con bondad. Si quieres hacerte más fuerte, ¡entrena hasta que tu cuerpo suplique descanso!
+ui.dbe.npcVegetaMain.evilText=Je. Esa sed de poder... la reconozco. Pero no pienses que puedes superarme siguiendo el camino fácil. ¡Si quieres dominarlo todo, primero tendrás que vencerme!
+ui.dbe.npcVegetaMain.weightButton=Peso
+ui.dbe.npcVegetaMain.skillsButton=Habilidades
+## whis
+ui.dbe.npcWhis.title=Whis
+ui.dbe.npcWhisMain.neutralText=¡Hola! El Sr. Bills está tomando una siesta celestial, y yo, Whis, estoy aquí para saborear los manjares terrenales. ¿Sería de mi cortesía divina ayudarte en algo?
+ui.dbe.npcWhisMain.goodText=Ah, ¡un corazón virtuoso! ¡Qué maravilla! Puedo compartir algunos consejos. con un toque divino, claro.
+ui.dbe.npcWhisMain.evilText=Exhalas malicia. pero no soy quien para juzgar. Veamos si sabes aprender con elegancia.
+ui.dbe.npcWhisMain.weightButton=Peso
+ui.dbe.npcWhisMain.skillsButton=Habilidades
+ui.dbe.npcWhisWeight.catchButton=Tomar Peso
+
+
+
+
+
+## raças e formas
+## terráqueo
+earthling=Terrícola
+earthling.description=Aunque menos poderosos que otras razas, los terrícolas compensan con gran adaptabilidad e ingenio, pudiendo entrenar para alcanzar niveles significativos de poder.
+earthling.transformation.base=Forma Base
+earthling.transformation.buffed=Fuerza Aumentada
+earthling.transformation.full_released=Poder Total
+earthling.transformation.god=Forma Divina
+earthling.transformation.ultimate_form=Forma Mística
+earthling.transformation.beast=Forma Bestial
+earthling.transformation.ultra_ego=Ultra Ego
+## saiyajin
+saiyan=Saiyajin
+saiyan.description=Guerreros natos con la habilidad de volverse más fuertes después de cada batalla. Su fuerza crece exponencialmente con las transformaciones en Super Saiyajin.
+saiyan.transformation.base=Forma Base
+saiyan.transformation.oozaru=Ozaru
+saiyan.transformation.ssj=Super Saiyajin
+saiyan.transformation.assj=Super Saiyajin Grado 2
+saiyan.transformation.ssj2=Super Saiyajin 2
+saiyan.transformation.ssj3=Super Saiyajin 3
+saiyan.transformation.lssj=Super Saiyajin Legendario
+saiyan.transformation.ultimate_form=Forma Mística
+saiyan.transformation.golden_oozaru=Ozaru Dorado
+saiyan.transformation.ssj4=Super Saiyajin 4
+saiyan.transformation.ssjg=Super Saiyajin Dios
+saiyan.transformation.ssjb=Super Saiyajin Blue
+saiyan.transformation.ssjr=Super Saiyajin Rosé
+saiyan.transformation.ssjbe=Super Saiyajin Blue Evolution
+saiyan.transformation.ssjre=Super Saiyajin Rosé Evolution
+saiyan.transformation.beast=Forma Bestial
+saiyan.transformation.ultra_ego=Ultra Ego
+## namekuseijin
+namekian=Namekuseijin
+namekian.description=Una raza pacífica y sabia con poderes regenerativos y habilidades de manipulación de ki. Son los creadores de las Esferas del Dragón originales.
+namekian.transformation.base=Forma Base
+namekian.transformation.full_released=Poder Completo
+namekian.transformation.potential_unleashed=Potencial Liberado
+namekian.transformation.ultimate_form=Forma Mística
+namekian.transformation.orange_form=Forma Orange
+namekian.transformation.beast=Forma Bestial
+namekian.transformation.ultra_ego=Ultra Ego
+## frost demon
+frost_demon=Frost Demon
+frost_demon.description=Seres poderosos con gran capacidad de evolución. Conocidos por sus transformaciones y resistencia extrema, son temidos por su crueldad y fuerza natural.
+frost_demon.transformation.base=Primera Forma 
+frost_demon.transformation.second_form=Segunda Forma
+frost_demon.transformation.third_form=Tercera Forma
+frost_demon.transformation.fourth_form=Cuarta Forma
+frost_demon.transformation.full_power=Poder Completo
+frost_demon.transformation.fifth_form=Quinta Forma
+frost_demon.transformation.ultimate_form=Forma Mística
+frost_demon.transformation.golden_form=Forma Dorada
+frost_demon.transformation.black_form=Forma Black
+frost_demon.transformation.beast=Forma Bestial
+frost_demon.transformation.ultra_ego=Ultra Ego
+## majin
+majin=Majin
+majin.description=Seres hechos de una sustancia mágica y altamente regenerativa. Poseen cuerpos maleables y pueden absorber a otros para aumentar su poder.
+majin.transformation.base=Forma Base
+majin.transformation.pure_majin=Forma Pura
+majin.transformation.super_majin=Super Majin
+majin.transformation.ultimate_form=Forma Mística
+majin.transformation.ultra_majin=Ultra Majin
+majin.transformation.beast=Forma Bestial
+majin.transformation.ultra_ego=Ultra Ego
+## bio android
+bio_android=Bioandroide
+bio_android.description=Seres artificiales creados a partir de las células de guerreros poderosos, los Bioandroides combinan las habilidades de varias razas, como regeneración, adaptación en combate y alto poder destructivo. Evolucionan mediante la absorción y pueden alcanzar formas perfectas con fuerza abrumadora.
+bio_android.transformation.base=Forma Base
+bio_android.transformation.semi_perfect=Forma Semi-Perfecta 
+bio_android.transformation.perfect=Forma Perfecta
+bio_android.transformation.full_power=Poder Completo
+bio_android.transformation.super_perfect=Forma Súper Perfecta
+bio_android.transformation.ultimate_form=Forma Mística
+bio_android.transformation.beast=Forma Bestial
+bio_android.transformation.ultra_ego=Ultra Ego
+## glind
+glind=Glind
+glind.description=Una raza poco conocida que no depende de transformaciones para evolucionar. Los Glind se enfocan en perfeccionar sus técnicas de ki, resistencia y habilidades únicas en batalla, alcanzando poder a través del entrenamiento y la disciplina en lugar de cambios de forma.
+glind.transformation.base=Forma Base
+
+
+
+
+
+## recompensas
+reward.friendship_points=¡Has recibido §a%s §rpuntos de amistad de %s!
+reward.training_points=¡Has recibido §a%s §rpuntos de entrenamiento!
+reward.zeni=¡Has recibido §a%s §rZeni!
+reward.z_points=¡Has recibido §a%s §rPuntos Z!
+
+
+
+
+
+## regiões
+region.hyperbolic_time_chamber.name=Sala del Tiempo
+region.king_kai_planet.name=Planeta del Sr. Kaioh
+region.lookout.name=Plataforma Celestial
+region.other_world.name=Otro Mundo
+
+
+
+
+
+## resgatar
+redeem.lore=Este objeto fue obtenido mediante código por %s.
+redeem.result.AlreadyClaimed=§cYa has canjeado este código.
+redeem.result.Expired=§cEste código ha expirado y ya no puede usarse.
+redeem.result.Invalid=§cEste código es inválido. Verifícalo e inténtalo nuevamente.
+redeem.result.NotForPlayer=§cEste código no te pertenece.
+redeem.result.Success=§a¡Canje realizado con éxito! Recompensas recibidas.
+
+
+
+
+
+## shop
+shop.result.insufficient_zeni=§cSaldo de Zeni insuficiente.
+shop.result.inventory_full=§cCompra fallida, tu inventario está lleno.
+shop.item.bansho_fan=Abanico Bansho
+shop.item.bansho_fan.description=Un abanico mágico que controla el viento y genera poderosas ráfagas.
+shop.item.dragon_radar=Radar del Dragón
+shop.item.dragon_radar.description=Radar utilizado para encontrar las Esferas del Dragón.
+shop.item.hoi_poi_capsule=Cápsula Hoi-Poi
+shop.item.hoi_poi_capsule.description=Cápsula utilizada para almacenar bloques y criaturas.
+shop.item.nanochip=Nanochip
+shop.item.nanochip.description=Chip utilizado en la creación de diversos aparatos y tecnologías.
+shop.item.ramen=Ramen
+shop.item.ramen.description=Delicioso ramen.
+shop.item.vegeta_battle_armor=Armadura de Batalla de Vegeta
+shop.item.vegeta_battle_armor.description=Armadura de batalla usada por Vegeta en sus primeras apariciones.
+## clothing shop
+shop.item.android_13_clothes=Ropa del Androide 13
+shop.item.android_13_clothes.description=Ropa usada por el Androide 13.
+shop.item.android_16_clothes=Ropa del Androide 16
+shop.item.android_16_clothes.description=Ropa usada por el Androide 16.
+shop.item.android_17_clothes=Ropa del Androide 17
+shop.item.android_17_clothes.description=Ropa usada por el Androide 17.
+shop.item.android_21_clothes=Ropa de la Androide 21
+shop.item.android_21_clothes.description=Ropa usada por la Androide 21 en su forma Majin.
+shop.item.broly_clothes=Ropa de Broly
+shop.item.broly_clothes.description=Ropa usada por Broly.
+shop.item.bunny_costume=Disfraz de Conejo
+shop.item.bunny_costume.description=Disfraz de conejo.
+shop.item.chi_chi_clothes=Ropa de Chi-Chi
+shop.item.chi_chi_clothes.description=Ropa usada por Chi-Chi.
+shop.item.elegant_suit=Traje Elegante
+shop.item.elegant_suit.description=Un traje elegante.
+shop.item.fused_zamasu_clothes=Ropa de Zamasu Fusionado
+shop.item.fused_zamasu_clothes.description=Ropa usada por Zamasu Fusionado.
+shop.item.goku_af_clothes=Ropa de Goku AF
+shop.item.goku_af_clothes.description=Ropa inspirada en Goku AF.
+shop.item.goku_black_clothes=Ropa de Goku Black
+shop.item.goku_black_clothes.description=Ropa usada por Goku Black.
+shop.item.goku_clothes=Ropa de Goku
+shop.item.goku_clothes.description=Ropa clásica usada por Goku.
+shop.item.goku_casual_clothes=Ropa Casual de Goku
+shop.item.goku_casual_clothes.description=Ropa casual usada por Goku.
+shop.item.goku_gt_clothes=Ropa de Goku GT
+shop.item.goku_gt_clothes.description=Ropa usada por Goku en Dragon Ball GT.
+shop.item.kaioshin_clothes=Ropa del Kaioshin
+shop.item.kaioshin_clothes.description=Ropa usada por los Kaioshin.
+shop.item.maid_costume=Disfraz de Sirvienta
+shop.item.maid_costume.description=Disfraz de sirvienta.
+shop.item.majin_vegeta_clothes=Ropa de Majin Vegeta
+shop.item.majin_vegeta_clothes.description=Ropa usada por Vegeta bajo el poder Majin.
+shop.item.piccolo_clothes=Ropa de Piccolo
+shop.item.piccolo_clothes.description=Ropa usada por Piccolo.
+shop.item.pride_troopers_clothes=Ropa de los Pride Troopers
+shop.item.pride_troopers_clothes.description=Uniforme usado por los Pride Troopers.
+shop.item.saiyaman_clothes=Ropa del Gran Saiyaman
+shop.item.saiyaman_clothes.description=Ropa usada por el Gran Saiyaman.
+shop.item.tapion_clothes=Ropa de Tapion
+shop.item.tapion_clothes.description=Ropa usada por Tapion.
+shop.item.trunks_clothes=Ropa de Trunks
+shop.item.trunks_clothes.description=Ropa usada por Trunks.
+shop.item.xeno_goku_clothes=Ropa de Xeno Goku
+shop.item.xeno_goku_clothes.description=Ropa usada por Xeno Goku.
+shop.item.zamasu_clothes=Ropa de Zamasu
+shop.item.zamasu_clothes.description=Ropa usada por Zamasu.
+
+
+
+
+
+## skills
+skill.type.common=Común
+skill.type.ki_attack=Ataque de Ki
+skill.type.weapon=Arma
+skill.disabled=§c(desactivado)§r
+skill.enabled=§a(activado)§r
+skill.learned=Aprendido
+skill.aura_boost=Impulso de Aura
+skill.aura_boost.description=Aumenta temporalmente tu destreza y control de Ki.
+skill.burst_move=Movimiento Explosivo
+skill.burst_move.description=Desaparece y muévete rápidamente hacia los lados a corta distancia.
+skill.divine_ki=Ki Divino
+skill.divine_ki.description=Canaliza el raro y poderoso Ki Divino.
+skill.final_flash=Final Flash
+skill.final_flash.description=Carga y dispara un gigantesco rayo dorado de Ki con fuerza catastrófica. Una de las técnicas más poderosas y destructivas de Vegeta.
+skill.friendly_fist=Puño Amistoso
+skill.friendly_fist.description=Ataque sin causar daño letal, ideal para entrenamientos. Solo en PvP.
+skill.fly=Vuelo
+skill.fly.description=Permite volar libremente al canalizar tu Ki.
+skill.galick_gun=Galick Gun
+skill.galick_gun.description=Dispara una poderosa ráfaga de Ki púrpura concentrada. Técnica distintiva del Príncipe Vegeta, capaz de rivalizar con las mayores ondas de energía.
+skill.genki_dama=Genkidama
+skill.genki_dama.description=Reúne energía de todo a tu alrededor y lanza una esfera colosal.
+skill.gigantification=Gigantificación
+skill.gigantification.description=Habilidad de los Namekuseijin para crecer y aumentar el poder físico.
+skill.hakai=Hakai
+skill.hakai.description=Habilidad exclusiva de los Hakaishin. Hazte más fuerte conforme tu furia aumenta.
+skill.healing_power=Poder de Curación
+skill.healing_power.description=Otorga la capacidad de autocurarse o, si se mejora, también la posibilidad de curar aliados cercanos.
+skill.jump=Salto
+skill.jump.description=Da saltos impulsados por el Ki y tu resistencia.
+skill.kamehameha=Kamehameha
+skill.kamehameha.description=Dispara una poderosa ráfaga de Ki concentrado. Técnica creada por el Maestro Roshi.
+skill.kaioken=Kaioken
+skill.kaioken.description=Aumenta drásticamente tu poder por tiempo limitado, con riesgo para el cuerpo.
+skill.kaioken.times=Kaioken x%s
+skill.ki_blast=Esfera de Ki
+skill.ki_blast.description=Disparo simple de Ki, útil para ataques rápidos.
+skill.ki_fist=Puño de Ki
+skill.ki_fist.description=Envuelve tus puños con Ki para aumentar el daño. Cada golpe consume energía.
+skill.ki_protect=Protección de Ki
+skill.ki_protect.description=Crea una barrera de Ki para reducir el daño. Consume energía con cada impacto.
+skill.ki_sense=Sentir el Ki
+skill.ki_sense.description=Detecta la presencia y el poder de combate de otras entidades.
+skill.ki_scythe=Guadaña de Ki
+skill.ki_scythe.description=Conjura una guadaña hecha de Ki puro.
+skill.kienzan=Kienzan
+skill.kienzan.description=Disco afilado de Ki que puede cortar casi cualquier cosa.
+skill.legendary=Legendario
+skill.legendary.description=Una técnica mítica, usada solo por guerreros legendarios.
+skill.makankosappo=Makankosappo
+skill.makankosappo.description=Concentra tu Ki en un rayo perforante y extremadamente preciso, capaz de atravesar defensas y golpear al enemigo directamente.
+skill.metamoran_dance=Danza Metamoru
+skill.metamoran_dance.description=Permite la fusión con otro guerrero mediante la Danza Metamoru.
+skill.potential_unleashed=Desbloqueo de Potencial
+skill.potential_unleashed.description=Despierta todo tu potencial oculto.
+skill.rapid_movement=Movimiento Rápido
+skill.rapid_movement.description=Muévete a gran velocidad para evitar ataques.
+skill.ultra_instinct=Ultra Instinto
+skill.ultra_instinct.description=Esquiva automáticamente con reflejos instintivos y divinos.
+
+
+
+
+
+## tutorial
+tutorial.message.npc_1=§ePuedes encontrar personajes repartidos por todo el mundo.
+tutorial.message.npc_2=§eInteractúa con ellos para recibir entrenamientos y desafíos.
+tutorial.message.npc_3=§eAlgunos personajes ofrecen misiones únicas con grandes recompensas.
+tutorial.message.npc_4=§e¡Mantente atento! Nuevos maestros pueden aparecer en lugares inesperados.
+
+
+
+
+
+## ui
+ui.dbe.alignmentQuestion.title=Alineación
+ui.dbe.alignmentQuestion.text=¿Cuál es el verdadero motivo detrás de tu lucha?
+ui.dbe.alignmentQuestion.toProtectButton=Para proteger
+ui.dbe.alignmentQuestion.forMySelfButton=Por mí mismo
+ui.dbe.alignmentQuestion.forEvilButton=Para las fuerzas del mal
+ui.dbe.christmas.title=¡Feliz Navidad!
+ui.dbe.customization.title=Personalización
+ui.dbe.customization.confirmButton=Confirmar
+ui.dbe.functions.title=Funciones
+ui.dbe.functions.moreButton=Más
+ui.dbe.functions.tailModeButton=Modo de la cola: §a%s
+ui.dbe.gravityMachine.title=Máquina de Gravedad
+ui.dbe.gravityMachine.text=Combustible: %sGravedad: %s
+ui.dbe.learnSkills.title=Aprender Habilidades
+ui.dbe.news.title=Noticias
+ui.dbe.quest.title=Misión
+ui.dbe.quest.startButton=Iniciar
+ui.dbe.quest.objectives=Objetivo(s): %s
+ui.dbe.quest.rewards=Recompensa(s): %s
+ui.dbe.quest.recommendedLevel=Nivel recomendado %s
+ui.dbe.quest.restartButton=Reiniciar
+ui.dbe.questList.title=Misiones
+ui.dbe.questList.questButton=%s: §9%s
+ui.dbe.selectHair.title=Selecciona tu cabello
+ui.dbe.selectHair.selectButton=Seleccionar
+ui.dbe.selectRace.title=Selecciona tu raza
+ui.dbe.selectRace.text=Raza: §9%s§rInformación: §9%s
+ui.dbe.selectRace.selectButton=Seleccionar
+ui.dbe.shop.title=Tienda
+ui.dbe.skills.title=Habilidades
+ui.dbe.skills.text=Habilidades:
+ui.dbe.skills.emptyText=Vaya. parece que ya desbloqueaste todo lo que podías por ahora. ¡Sin nuevas transformaciones de nivel y ninguna habilidad lista para evolucionar! ¡Ve a entrenar un poco más!
+ui.dbe.skills.nextTransformation=Próxima transformación: §9%s §8(Nivel %s)§r
+ui.dbe.skills.upgradeSkillButton=%s §uNivel %s
+ui.dbe.skills.maximizedSkillButton=%s §uMaximizado
+ui.dbe.statistics.title=Estadísticas
+ui.dbe.statistics.text=Nivel: §a%s§rPuntos de Entrenamiento: §a%s§rRaza: §a%s§rForma: §a%s§rAlineación: §a%s§rMentor: §a%s§rAtributos:
+ui.dbe.training.title=Entrenamiento
+ui.dbe.training.shadowDummyButton=Sombra de entrenamiento
+ui.dbe.training.concentrationButton=Entrenamiento de concentración
+ui.dbe.training.stopConcentrationButton=Finalizar Entrenamiento de concentración
+ui.dbe.transformations.title=Transformaciones
+ui.dbe.weight.text=Utiliza pesas en tu entrenamiento para acelerar el progreso, tu defensa y velocidad se verán afectadas al usar este objeto.
+ui.dbe.wishes.title=Deseos

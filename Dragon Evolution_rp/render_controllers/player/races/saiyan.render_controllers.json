@@ -1,0 +1,425 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.player.saiyan.beard": {
+            "arrays": {
+                "textures": {
+                    "Array.beards": [
+                        "Texture.empty",
+                        "Texture.saiyan_beard_1",
+                        "Texture.saiyan_beard_2",
+                        "Texture.saiyan_beard_3",
+                        "Texture.saiyan_beard_4",
+                        "Texture.saiyan_beard_5"
+                    ]
+                }
+            },
+            "geometry": "Geometry.beard",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "Array.beards[v.customization2]" ],
+            "color": {
+                "r": "v.color1.r",
+                "g": "v.color1.g",
+                "b": "v.color1.b"
+            }
+        },
+        "controller.render.player.saiyan.eyebrows": {
+            "arrays": {
+                "textures": {
+                    "Array.female_eyes": [
+                        "Texture.saiyan_eyes_female_1",
+                        "Texture.saiyan_eyes_female_2"
+                    ],
+                    "Array.male_eyes": [
+                        "Texture.saiyan_eyes_male_1",
+                        "Texture.saiyan_eyes_male_2"
+                    ],
+                    "Array.female_ssj4_eyes": [
+                        "Texture.saiyan_eyes_female_ssj4_1",
+                        "Texture.saiyan_eyes_female_ssj4_2"
+                    ],
+                    "Array.male_ssj4_eyes": [
+                        "Texture.saiyan_eyes_male_ssj4_1",
+                        "Texture.saiyan_eyes_male_ssj4_2"
+                    ]
+                }
+            },
+            "geometry": "Geometry.eyes",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "v.is_ssj4 ? v.is_female ? Array.female_ssj4_eyes[v.customization3] : Array.male_ssj4_eyes[v.customization3] : v.is_female ? Array.female_eyes[v.customization3] : Array.male_eyes[v.customization3]" ],
+            "part_visibility": [
+                { "*": false },
+                { "eyebrows": "!q.any(v.transformation, 5, 16)" }
+            ],
+            "color": {
+                "r": "v.color1.r",
+                "g": "v.color1.g",
+                "b": "v.color1.b"
+            }
+        },
+        "controller.render.player.saiyan.eyes_iris": {
+            "arrays": {
+                "textures": {
+                    "Array.female_eyes": [
+                        "Texture.saiyan_eyes_female_1",
+                        "Texture.saiyan_eyes_female_2"
+                    ],
+                    "Array.male_eyes": [
+                        "Texture.saiyan_eyes_male_1",
+                        "Texture.saiyan_eyes_male_2"
+                    ],
+                    "Array.female_ssj4_eyes": [
+                        "Texture.saiyan_eyes_female_ssj4_1",
+                        "Texture.saiyan_eyes_female_ssj4_2"
+                    ],
+                    "Array.male_ssj4_eyes": [
+                        "Texture.saiyan_eyes_male_ssj4_1",
+                        "Texture.saiyan_eyes_male_ssj4_2"
+                    ]
+                }
+            },
+            "geometry": "Geometry.eyes",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "v.is_ssj4 ? v.is_female ? Array.female_ssj4_eyes[v.customization3] : Array.male_ssj4_eyes[v.customization3] : v.is_female ? Array.female_eyes[v.customization3] : Array.male_eyes[v.customization3]" ],
+            "part_visibility": [
+                { "*": false },
+                { "leftIris": true },
+                { "rightIris": true }
+            ],
+            "color": {
+                "r": "v.color2.r",
+                "g": "v.color2.g",
+                "b": "v.color2.b"
+            }
+        },
+        "controller.render.player.saiyan.eyes_sclera": {
+            "arrays": {
+                "textures": {
+                    "Array.female_eyes": [
+                        "Texture.saiyan_eyes_female_1",
+                        "Texture.saiyan_eyes_female_2"
+                    ],
+                    "Array.male_eyes": [
+                        "Texture.saiyan_eyes_male_1",
+                        "Texture.saiyan_eyes_male_2"
+                    ],
+                    "Array.female_ssj4_eyes": [
+                        "Texture.saiyan_eyes_female_ssj4_1",
+                        "Texture.saiyan_eyes_female_ssj4_2"
+                    ],
+                    "Array.male_ssj4_eyes": [
+                        "Texture.saiyan_eyes_male_ssj4_1",
+                        "Texture.saiyan_eyes_male_ssj4_2"
+                    ]
+                }
+            },
+            "geometry": "Geometry.eyes",
+            "materials": [ { "*": "Material.default" } ],
+            "textures": [ "v.is_ssj4 ? v.is_female ? Array.female_ssj4_eyes[v.customization3] : Array.male_ssj4_eyes[v.customization3] : v.is_female ? Array.female_eyes[v.customization3] : Array.male_eyes[v.customization3]" ],
+            "part_visibility": [
+                { "*": false },
+                { "leftEye": true },
+                { "rightEye": true }
+            ]
+        },
+        "controller.render.player.saiyan.first_person": {
+            "arrays": {
+                "textures": {
+                    "Array.female_skins": [
+                        "Texture.default",
+                        "Texture.saiyan_skin_female_1",
+                        "Texture.saiyan_skin_female_2",
+                        "Texture.saiyan_skin_female_3",
+                        "Texture.saiyan_skin_female_4",
+                        "Texture.saiyan_skin_female_5"
+                    ],
+                    "Array.male_skins": [
+                        "Texture.default",
+                        "Texture.saiyan_skin_male_1",
+                        "Texture.saiyan_skin_male_2",
+                        "Texture.saiyan_skin_male_3",
+                        "Texture.saiyan_skin_male_4",
+                        "Texture.saiyan_skin_male_5"
+                    ]
+                }
+            },
+            "geometry": "Geometry.earthling",
+            "materials": [ { "*": "Material.masked" } ],
+            "textures": [
+                "v.is_female ? Array.female_skins[v.customization0] : Array.male_skins[v.customization0]",
+                "v.is_ssj4 ? v.ultra_instinct == 2 ? Texture.saiyan_skin_ssj5 : v.fusion_type == 'metamoran' ? Texture.saiyan_skin_metamoran_ssj4 : Texture.saiyan_skin_ssj4 : Texture.empty",
+                "Texture.empty"
+            ],
+            "part_visibility": [
+                { "*": false },
+                { "rightArm": "v.rightarm_visible || q.get_equipped_item_name(0, 1) == '' || q.get_equipped_item_name(0, 1) == 'filled_map'" },
+                { "rightSleeve": "v.rightarm_visible || q.get_equipped_item_name(0, 1) == '' || q.get_equipped_item_name(0, 1) == 'filled_map'" },
+                { "leftArm": "v.leftarm_visible || (q.get_equipped_item_name(0, 1) == 'filled_map' && q.get_equipped_item_name('off_hand') != 'shield') || (q.get_equipped_item_name('off_hand') == 'filled_map' && !q.item_is_charged) || (!q.item_is_charged && (v.item_use_normalized > 0 && v.item_use_normalized < 1.0))" },
+                { "leftSleeve": "v.leftarm_visible || (q.get_equipped_item_name(0, 1) == 'filled_map' && q.get_equipped_item_name('off_hand') != 'shield') || (q.get_equipped_item_name('off_hand') == 'filled_map' && !q.item_is_charged) || (!q.item_is_charged && (v.item_use_normalized > 0 && v.item_use_normalized < 1.0))" }
+            ],
+            "overlay_color": {
+                "r": "v.is_hakai ? 0.65 : v.kaioken_enabled ? 1 : 0",
+                "g": 0,
+                "b": "v.is_hakai ? 0.8 : 0",
+                "a": "(v.is_hakai || v.kaioken_enabled) ? 0.2 : 0"
+            }
+        },
+        "controller.render.player.saiyan.third_person": {
+            "arrays": {
+                "textures": {
+                    "Array.female_skins": [
+                        "Texture.default",
+                        "Texture.saiyan_skin_female_1",
+                        "Texture.saiyan_skin_female_2",
+                        "Texture.saiyan_skin_female_3",
+                        "Texture.saiyan_skin_female_4",
+                        "Texture.saiyan_skin_female_5"
+                    ],
+                    "Array.male_skins": [
+                        "Texture.default",
+                        "Texture.saiyan_skin_male_1",
+                        "Texture.saiyan_skin_male_2",
+                        "Texture.saiyan_skin_male_3",
+                        "Texture.saiyan_skin_male_4",
+                        "Texture.saiyan_skin_male_5"
+                    ]
+                }
+            },
+            "geometry": "Geometry.earthling",
+            "materials": [ { "*": "Material.masked" } ],
+            "textures": [
+                "v.is_female ? Array.female_skins[v.customization0] : Array.male_skins[v.customization0]",
+                "v.is_ssj4 ? v.ultra_instinct == 2 ? Texture.saiyan_skin_ssj5 : v.fusion_type == 'metamoran' ? Texture.saiyan_skin_metamoran_ssj4 : Texture.saiyan_skin_ssj4 : Texture.empty",
+                "Texture.empty"
+            ],
+            "part_visibility": [
+                { "*": true },
+                { "breasts": "v.is_female" }
+            ],
+            "overlay_color": {
+                "r": "v.kaioken_enabled ? 1 : 0",
+                "g": 0,
+                "b": 0,
+                "a": "v.kaioken_enabled ? 0.2 : 0"
+            }
+        },
+        "controller.render.player.saiyan.hair": {
+            "arrays": {
+                "geometries": {
+                    "Array.broly_z_hairs": [
+                        "Geometry.broly_z_hair", // base
+                        "Geometry.broly_z_hair", // oozaru
+                        "Geometry.broly_z_ssj_hair", // ssj
+                        "Geometry.broly_z_ssj_hair", // assj
+                        "Geometry.broly_z_ssj2_hair", // ssj2
+                        "Geometry.broly_z_ssj3_hair", // ssj3
+                        "Geometry.broly_z_ssj_hair", // lssj
+                        "Geometry.broly_z_ssj2_hair", // ultimate form
+                        "Geometry.broly_z_hair", // golden oozaru
+                        "Geometry.broly_z_ssj4_hair", // ssj4
+                        "Geometry.broly_z_hair", // ssjg
+                        "Geometry.broly_z_ssj_hair", // ssjb
+                        "Geometry.broly_z_ssj_hair", // ssjr
+                        "Geometry.broly_z_ssj2_hair", // ssjbe
+                        "Geometry.broly_z_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.broly_z_ssj2_hair" // ultra ego
+                    ],
+                    "Array.futtrunks_hairs": [
+                        "Geometry.futtrunks_hair", // base
+                        "Geometry.futtrunks_hair", // oozaru
+                        "Geometry.futtrunks_ssj_hair", // ssj
+                        "Geometry.futtrunks_ssj_hair", // assj
+                        "Geometry.futtrunks_ssj2_hair", // ssj2
+                        "Geometry.trunks_ssj3_hair", // ssj3
+                        "Geometry.futtrunks_ssj_hair", // lssj
+                        "Geometry.futtrunks_ssj2_hair", // ultimate form
+                        "Geometry.futtrunks_hair", // golden oozaru
+                        "Geometry.trunks_ssj4_hair", // ssj4
+                        "Geometry.futtrunks_ssjg_hair", // ssjg
+                        "Geometry.futtrunks_ssj_hair", // ssjb
+                        "Geometry.futtrunks_ssj_hair", // ssjr
+                        "Geometry.futtrunks_ssj2_hair", // ssjbe
+                        "Geometry.futtrunks_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.futtrunks_ssj2_hair" // ultra ego
+                    ],
+                    "Array.goku_hairs": [
+                        "Geometry.goku_hair", // base
+                        "Geometry.goku_hair", // oozaru
+                        "Geometry.goku_ssj_hair", // ssj
+                        "Geometry.goku_ssj_hair", // assj
+                        "Geometry.goku_ssj2_hair", // ssj2
+                        "Geometry.goku_ssj3_hair", // ssj3
+                        "Geometry.goku_ssj_hair", // lssj
+                        "Geometry.goku_ssj2_hair", // ultimate form
+                        "Geometry.goku_hair", // golden oozaru
+                        "Geometry.goku_ssj4_hair", // ssj4
+                        "Geometry.goku_hair", // ssjg
+                        "Geometry.goku_ssj_hair", // ssjb
+                        "Geometry.goku_ssj_hair", // ssjr
+                        "Geometry.goku_ssj2_hair", // ssjbe
+                        "Geometry.goku_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.goku_ssj2_hair" // ultra ego
+                    ],
+                    "Array.gohan_hairs": [
+                        "Geometry.gohan_hair", // base
+                        "Geometry.gohan_hair", // oozaru
+                        "Geometry.gohan_hair", // ssj
+                        "Geometry.gohan_hair", // assj
+                        "Geometry.gohan_ssj_hair", // ssj2
+                        "Geometry.goku_ssj3_hair", // ssj3
+                        "Geometry.gohan_ssj_hair", // lssj
+                        "Geometry.gohan_ssj_hair", // ultimate form
+                        "Geometry.gohan_hair", // golden oozaru
+                        "Geometry.gohan_ssj4_hair", // ssj4
+                        "Geometry.gohan_hair", // ssjg
+                        "Geometry.gohan_hair", // ssjb
+                        "Geometry.gohan_hair", // ssjr
+                        "Geometry.gohan_ssj_hair", // ssjbe
+                        "Geometry.gohan_ssj_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.gohan_ssj_hair" // ultra ego
+                    ],
+                    "Array.trunks_hairs": [
+                        "Geometry.trunks_hair", // base
+                        "Geometry.trunks_hair", // oozaru
+                        "Geometry.trunks_ssj_hair", // ssj
+                        "Geometry.trunks_ssj_hair", // assj
+                        "Geometry.trunks_ssj2_hair", // ssj2
+                        "Geometry.trunks_ssj3_hair", // ssj3
+                        "Geometry.trunks_ssj_hair", // lssj
+                        "Geometry.trunks_ssj2_hair", // ultimate form
+                        "Geometry.trunks_hair", // golden oozaru
+                        "Geometry.trunks_ssj4_hair", // ssj4
+                        "Geometry.trunks_hair", // ssjg
+                        "Geometry.trunks_ssj_hair", // ssjb
+                        "Geometry.trunks_ssj_hair", // ssjr
+                        "Geometry.trunks_ssj2_hair", // ssjbe
+                        "Geometry.trunks_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.trunks_ssj2_hair" // ultra ego
+                    ],
+                    "Array.vegeta_hairs": [
+                        "Geometry.vegeta_hair", // base
+                        "Geometry.vegeta_hair", // oozaru
+                        "Geometry.vegeta_ssj_hair", // ssj
+                        "Geometry.vegeta_ssj_hair", // assj
+                        "Geometry.vegeta_ssj2_hair", // ssj2
+                        "Geometry.vegeta_ssj3_hair", // ssj3
+                        "Geometry.vegeta_ssj_hair", // lssj
+                        "Geometry.vegeta_ssj2_hair", // ultimate form
+                        "Geometry.vegeta_hair", // golden oozaru
+                        "Geometry.vegeta_ssj4_hair", // ssj4
+                        "Geometry.vegeta_hair", // ssjg
+                        "Geometry.vegeta_ssj_hair", // ssjb
+                        "Geometry.vegeta_ssj_hair", // ssjr
+                        "Geometry.vegeta_ssj2_hair", // ssjbe
+                        "Geometry.vegeta_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.vegeta_ssj2_hair" // ultra ego
+                    ],
+                    "Array.caulifla_hairs": [
+                        "Geometry.caulifla_hair", // base
+                        "Geometry.caulifla_hair", // oozaru
+                        "Geometry.caulifla_ssj_hair", // ssj
+                        "Geometry.caulifla_ssj_hair", // assj
+                        "Geometry.caulifla_ssj2_hair", // ssj2
+                        "Geometry.caulifla_ssj3_hair", // ssj3
+                        "Geometry.caulifla_ssj_hair", // lssj
+                        "Geometry.caulifla_ssj2_hair", // ultimate form
+                        "Geometry.caulifla_hair", // golden oozaru
+                        "Geometry.caulifla_ssj4_hair", // ssj4
+                        "Geometry.caulifla_hair", // ssjg
+                        "Geometry.caulifla_ssj_hair", // ssjb
+                        "Geometry.caulifla_ssj_hair", // ssjr
+                        "Geometry.caulifla_ssj2_hair", // ssjbe
+                        "Geometry.caulifla_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.caulifla_ssj2_hair" // ultra ego
+                    ],
+                    // "Array.chi_chi_hairs": [
+                    //     "Geometry.chi_chi_hair",// base
+                    //     "Geometry.chi_chi_hair",// oozaru
+                    //     "Geometry.chi_chi_hair",// ssj
+                    //     "Geometry.chi_chi_hair",// assj
+                    //     "Geometry.chi_chi_ssj2_hair",// ssj2
+                    //     "Geometry.chi_chi_ssj3_hair",// ssj3
+                    //     "Geometry.chi_chi_hair",// lssj
+                    //     "Geometry.chi_chi_ssj2_hair",// ultimate form
+                    //     "Geometry.chi_chi_hair",// golden oozaru
+                    //     "Geometry.chi_chi_ssj4_hair",// ssj4
+                    //     "Geometry.chi_chi_hair",// ssjg
+                    //     "Geometry.chi_chi_hair",// ssjb
+                    //     "Geometry.chi_chi_hair",// ssjr
+                    //     "Geometry.chi_chi_ssj2_hair",// ssjbe
+                    //     "Geometry.chi_chi_ssj2_hair",// ssjre
+                    //     "Geometry.gohan_beast_hair",// beast
+                    //     "Geometry.chi_chi_ssj2_hair"// ultra ego
+                    // ],
+                    "Array.gine_hairs": [
+                        "Geometry.gine_hair", // base
+                        "Geometry.gine_hair", // oozaru
+                        "Geometry.gine_ssj_hair", // ssj
+                        "Geometry.gine_ssj_hair", // assj
+                        "Geometry.gine_ssj2_hair", // ssj2
+                        "Geometry.gine_ssj3_hair", // ssj3
+                        "Geometry.gine_ssj_hair", // lssj
+                        "Geometry.gine_ssj2_hair", // ultimate form
+                        "Geometry.gine_hair", // golden oozaru
+                        "Geometry.gine_ssj4_hair", // ssj4
+                        "Geometry.gine_hair", // ssjg
+                        "Geometry.gine_ssj_hair", // ssjb
+                        "Geometry.gine_ssj_hair", // ssjr
+                        "Geometry.gine_ssj2_hair", // ssjbe
+                        "Geometry.gine_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.gine_ssj2_hair" // ultra ego
+                    ],
+                    "Array.videl_hairs": [
+                        "Geometry.videl_short_hair", // base
+                        "Geometry.videl_short_hair", // oozaru
+                        "Geometry.videl_short_ssj_hair", // ssj
+                        "Geometry.videl_short_ssj_hair", // assj
+                        "Geometry.videl_short_ssj2_hair", // ssj2
+                        "Geometry.goku_ssj3_hair", // ssj3
+                        "Geometry.videl_short_ssj_hair", // lssj
+                        "Geometry.videl_short_ssj2_hair", // ultimate form
+                        "Geometry.videl_short_hair", // golden oozaru
+                        "Geometry.videl_short_ssj4_hair", // ssj4
+                        "Geometry.videl_short_hair", // ssjg
+                        "Geometry.videl_short_ssj_hair", // ssjb
+                        "Geometry.videl_short_ssj_hair", // ssjr
+                        "Geometry.videl_short_ssj2_hair", // ssjbe
+                        "Geometry.videl_short_ssj2_hair", // ssjre
+                        "Geometry.gohan_beast_hair", // beast
+                        "Geometry.videl_short_ssj2_hair" // ultra ego
+                    ]
+                }
+            },
+            "geometry": "v.is_ssj4 && v.ultra_instinct == 2 ? geometry.goku_ssj5_hair : v.is_female ? v.customization1 == 0 ? Array.caulifla_hairs[v.transformation] : v.customization1 == 1 ? Array.gine_hairs[v.transformation] : v.customization1 == 2 ? Array.gine_hairs[v.transformation] : Array.videl_hairs[v.transformation] : v.customization1 == 0 ? Array.goku_hairs[v.transformation] : v.customization1 == 1 ? Array.gohan_hairs[v.transformation] : v.customization1 == 2 ? Array.trunks_hairs[v.transformation] : v.customization1 == 3 ? Array.vegeta_hairs[v.transformation] : v.customization1 == 4 ? Array.broly_z_hairs[v.transformation] : Array.futtrunks_hairs[v.transformation]",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "v.customization1 == 3 ? Texture.saiyan_hair_2 : Texture.saiyan_hair_1" ],
+            "part_visibility": [
+                { "*": "!v.hide_hair" },
+                { "head": true }
+            ],
+            "color": {
+                "r": "v.color1.r",
+                "g": "v.color1.g",
+                "b": "v.color1.b"
+            }
+        },
+        "controller.render.player.saiyan.tail": {
+            "geometry": "Geometry.saiyan_tail",
+            "materials": [ { "*": "Material.alphatest_change_color" } ],
+            "textures": [ "Texture.saiyan_tail" ],
+            "color": {
+                "r": "v.color3.r",
+                "g": "v.color3.g",
+                "b": "v.color3.b"
+            }
+        }
+    }
+}

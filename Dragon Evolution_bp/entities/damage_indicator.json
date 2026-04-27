@@ -1,0 +1,49 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "dbe:damage_indicator",
+            "is_spawnable": false,
+            "is_summonable": true
+        },
+
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "inanimate"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 0
+            },
+            "minecraft:scale": {
+                "value": 0
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "deals_damage": "no"
+                }
+            },
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:nameable": {
+                "always_show": true
+            },
+            "minecraft:despawn": {
+                "filters": {
+                    "any_of": [
+                        {
+                            "test": "inactivity_timer",
+                            "value": 1
+                        }
+                    ]
+                }
+            },
+            "minecraft:conditional_bandwidth_optimization": { },
+            "minecraft:fire_immune": { }
+        }
+    }
+}

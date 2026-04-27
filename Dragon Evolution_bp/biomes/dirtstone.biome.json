@@ -1,0 +1,121 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dbe:dirtstone"
+        },
+
+        "components": {
+            "minecraft:climate": {
+                "downfall": 0.8,
+                "snow_accumulation": [ 0, 0.125 ],
+                "temperature": 1.2
+            },
+            "minecraft:overworld_height": {
+                "noise_type": "mountains"
+            },
+            "minecraft:surface_builder": {
+                "builder": {
+                    "type": "minecraft:mesa",
+                    "bryce_pillars": true,
+                    "clay_material": "dbe:dirtstone",
+                    "sea_floor_depth": 7,
+                    "sea_floor_material": "minecraft:gravel",
+                    "foundation_material": "minecraft:stone",
+                    "hard_clay_material": {
+                        "name": "dbe:dirtstone",
+                        "states": {
+                            "dbe:dirtstone_type": 1
+                        }
+                    },
+                    "has_forest": false,
+                    "mid_material": "dbe:dirtstone",
+                    "top_material": "dbe:dirtstone_grass",
+                    "sea_material": "minecraft:water"
+                }
+            },
+            "minecraft:surface_material_adjustments": {
+                "adjustments": [
+                    {
+                        "materials": {
+                            "top_material": "dbe:dry_soil"
+                        },
+                        "noise_frequency_scale": 0.0625,
+                        "noise_range": [ 0.212, 1 ]
+                    }
+                ]
+            },
+            "minecraft:replace_biomes": {
+                "replacements": [
+                    {
+                        "dimension": "minecraft:overworld",
+                        "noise_frequency_scale": 0.5,
+                        "amount": 0.5,
+                        "targets": [
+                            "minecraft:bamboo_jungle",
+                            "minecraft:bamboo_jungle_hills",
+                            "minecraft:birch_forest",
+                            "minecraft:birch_forest_hills",
+                            "minecraft:birch_forest_hills_mutated",
+                            "minecraft:birch_forest_mutated",
+                            "minecraft:cherry_grove",
+                            "minecraft:cold_beach",
+                            "minecraft:cold_taiga",
+                            "minecraft:cold_taiga_hills",
+                            "minecraft:cold_taiga_mutated",
+                            "minecraft:crimson_forest",
+                            "minecraft:extreme_hills",
+                            "minecraft:extreme_hills_edge",
+                            "minecraft:extreme_hills_mutated",
+                            "minecraft:extreme_hills_plus_trees",
+                            "minecraft:extreme_hills_plus_trees_mutated",
+                            "minecraft:flower_forest",
+                            "minecraft:forest",
+                            "minecraft:forest_hills",
+                            "minecraft:frozen_peaks",
+                            "minecraft:frozen_river",
+                            "minecraft:grove",
+                            "minecraft:ice_mountains",
+                            "minecraft:ice_plains",
+                            "minecraft:ice_plains_spikes",
+                            "minecraft:jagged_peaks",
+                            "minecraft:jungle",
+                            "minecraft:jungle_edge",
+                            "minecraft:jungle_edge_mutated",
+                            "minecraft:jungle_hills",
+                            "minecraft:jungle_mutated",
+                            "minecraft:mangrove_swamp",
+                            "minecraft:meadow",
+                            "minecraft:mega_taiga",
+                            "minecraft:mega_taiga_hills",
+                            "minecraft:mushroom_island",
+                            "minecraft:mushroom_island_shore",
+                            "minecraft:pale_garden",
+                            "minecraft:plains",
+                            "minecraft:redwood_taiga_hills_mutated",
+                            "minecraft:redwood_taiga_mutated",
+                            "minecraft:roofed_forest",
+                            "minecraft:roofed_forest_mutated",
+                            "minecraft:snowy_slopes",
+                            "minecraft:stone_beach",
+                            "minecraft:stony_peaks",
+                            "minecraft:sunflower_plains",
+                            "minecraft:swampland",
+                            "minecraft:swampland_mutated",
+                            "minecraft:taiga",
+                            "minecraft:taiga_hills",
+                            "minecraft:taiga_mutated"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "animal",
+                    "dirtstone",
+                    "overworld"
+                ]
+            }
+        }
+    }
+}
